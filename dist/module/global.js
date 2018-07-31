@@ -5,7 +5,11 @@ exports.getGlobalNameSpace = getGlobalNameSpace;
 
 var _util = require('./util');
 
-function getGlobalNameSpace(name, version, value) {
+function getGlobalNameSpace(_ref) {
+    var name = _ref.name,
+        version = _ref.version,
+        def = _ref.def;
+
 
     var glob = (0, _util.getGlobal)();
     var key = '__' + name + '__' + version + '_global__';
@@ -14,6 +18,6 @@ function getGlobalNameSpace(name, version, value) {
         return glob[key];
     }
 
-    glob[key] = value || {};
+    glob[key] = def || {};
     return glob[key];
 }

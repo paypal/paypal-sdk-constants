@@ -1024,10 +1024,10 @@
         "./src/global.js": function(module, exports, __webpack_require__) {
             "use strict";
             exports.__esModule = !0;
-            exports.getGlobalNameSpace = function(name, version, value) {
-                var glob = (0, _util.getGlobal)(), key = "__" + name + "__" + version + "_global__";
+            exports.getGlobalNameSpace = function(_ref) {
+                var name = _ref.name, version = _ref.version, def = _ref.def, glob = (0, _util.getGlobal)(), key = "__" + name + "__" + version + "_global__";
                 if (glob[key]) return glob[key];
-                glob[key] = value || {};
+                glob[key] = def || {};
                 return glob[key];
             };
             var _util = __webpack_require__("./src/util.js");
