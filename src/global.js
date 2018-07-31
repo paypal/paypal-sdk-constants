@@ -2,7 +2,7 @@
 
 import { getGlobal } from './util';
 
-export function getGlobalNameSpace<T : Object>(name : string, version : string, value? : T) : T {
+export function getGlobalNameSpace<T : Object>({ name, version, def } : { name : string, version : string, def? : T }) : T {
 
     let glob = getGlobal();
     let key  = `__${ name }__${ version }_global__`;
@@ -11,6 +11,6 @@ export function getGlobalNameSpace<T : Object>(name : string, version : string, 
         return glob[key];
     }
 
-    glob[key] = value || {};
+    glob[key] = def || {};
     return glob[key];
 }

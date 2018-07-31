@@ -11,7 +11,7 @@ type Storage = {
     getSessionID : () => string
 };
 
-export function getStorage({ name, version, lifetime = (5 * 60 * 1000) } : { name : string, version : string, lifetime : number }) : Storage {
+export function getStorage({ name, version, lifetime = (5 * 60 * 1000) } : { name : string, version : string, lifetime? : number }) : Storage {
 
     const STORAGE_KEY = `__${ name }_${ version }_storage__`;
 
