@@ -6,34 +6,34 @@ import type { CrossDomainWindowType } from 'cross-domain-utils/src';
 import { memoize } from './util';
 import { isDevice } from './device';
 
-function isDocumentReady() : boolean {
+export function isDocumentReady() : boolean {
     return Boolean(document.body) && document.readyState === 'complete';
 }
 
-export let documentReady : ZalgoPromise<void> = new ZalgoPromise(resolve => {
+export let waitForDocumentReady = memoize(() : ZalgoPromise<void> => {
+    return new ZalgoPromise(resolve => {
 
-    if (isDocumentReady()) {
-        return resolve();
-    }
-
-    let interval = setInterval(() => {
         if (isDocumentReady()) {
-            clearInterval(interval);
             return resolve();
         }
-    }, 10);
+
+        let interval = setInterval(() => {
+            if (isDocumentReady()) {
+                clearInterval(interval);
+                return resolve();
+            }
+        }, 10);
+    });
 });
 
-export let documentBody : ZalgoPromise<HTMLElement> = documentReady.then(() => {
-    if (document.body) {
-        return document.body;
-    }
+export function waitForDocumentBody() : ZalgoPromise<HTMLBodyElement> {
+    return waitForDocumentReady.then(() => {
+        if (document.body) {
+            return document.body;
+        }
 
-    throw new Error('Document ready but document.body not present');
-});
-
-export function onDocumentReady(method : () => void) : ZalgoPromise<void> {
-    return documentReady.then(method);
+        throw new Error('Document ready but document.body not present');
+    });
 }
 
 export let parseQuery = memoize((queryString : string) : Object => {
@@ -160,7 +160,7 @@ export let enablePerformance = memoize(() : boolean => {
 });
 
 export function getPageRenderTime() : ZalgoPromise<?number> {
-    return documentReady.then(() => {
+    return waitForDocumentReady().then(() => {
 
         if (!enablePerformance()) {
             return;
