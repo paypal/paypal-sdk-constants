@@ -1,8 +1,9 @@
 'use strict';
 
 exports.__esModule = true;
-exports.enablePerformance = exports.parseQuery = exports.documentBody = exports.documentReady = undefined;
-exports.onDocumentReady = onDocumentReady;
+exports.enablePerformance = exports.parseQuery = exports.waitForDocumentReady = undefined;
+exports.isDocumentReady = isDocumentReady;
+exports.waitForDocumentBody = waitForDocumentBody;
 exports.getQueryParam = getQueryParam;
 exports.urlWillRedirectPage = urlWillRedirectPage;
 exports.extendUrl = extendUrl;
@@ -22,30 +23,30 @@ function isDocumentReady() {
     return Boolean(document.body) && document.readyState === 'complete';
 }
 
-var documentReady = exports.documentReady = new _src.ZalgoPromise(function (resolve) {
+var waitForDocumentReady = exports.waitForDocumentReady = (0, _util.memoize)(function () {
+    return new _src.ZalgoPromise(function (resolve) {
 
-    if (isDocumentReady()) {
-        return resolve();
-    }
-
-    var interval = setInterval(function () {
         if (isDocumentReady()) {
-            clearInterval(interval);
             return resolve();
         }
-    }, 10);
+
+        var interval = setInterval(function () {
+            if (isDocumentReady()) {
+                clearInterval(interval);
+                return resolve();
+            }
+        }, 10);
+    });
 });
 
-var documentBody = exports.documentBody = documentReady.then(function () {
-    if (document.body) {
-        return document.body;
-    }
+function waitForDocumentBody() {
+    return waitForDocumentReady.then(function () {
+        if (document.body) {
+            return document.body;
+        }
 
-    throw new Error('Document ready but document.body not present');
-});
-
-function onDocumentReady(method) {
-    return documentReady.then(method);
+        throw new Error('Document ready but document.body not present');
+    });
 }
 
 var parseQuery = exports.parseQuery = (0, _util.memoize)(function (queryString) {
@@ -188,7 +189,7 @@ var enablePerformance = exports.enablePerformance = (0, _util.memoize)(function 
 });
 
 function getPageRenderTime() {
-    return documentReady.then(function () {
+    return waitForDocumentReady().then(function () {
 
         if (!enablePerformance()) {
             return;

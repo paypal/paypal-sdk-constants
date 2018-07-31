@@ -922,9 +922,13 @@
         "./src/dom.js": function(module, exports, __webpack_require__) {
             "use strict";
             exports.__esModule = !0;
-            exports.enablePerformance = exports.parseQuery = exports.documentBody = exports.documentReady = void 0;
-            exports.onDocumentReady = function(method) {
-                return documentReady.then(method);
+            exports.enablePerformance = exports.parseQuery = exports.waitForDocumentReady = void 0;
+            exports.isDocumentReady = isDocumentReady;
+            exports.waitForDocumentBody = function() {
+                return waitForDocumentReady.then(function() {
+                    if (document.body) return document.body;
+                    throw new Error("Document ready but document.body not present");
+                });
             };
             exports.getQueryParam = function(name) {
                 return parseQuery(window.location.search.slice(1))[name];
@@ -968,7 +972,7 @@
                 return Boolean(el.offsetWidth || el.offsetHeight || el.getClientRects().length);
             };
             exports.getPageRenderTime = function() {
-                return documentReady.then(function() {
+                return waitForDocumentReady().then(function() {
                     if (enablePerformance()) {
                         var timing = window.performance.timing;
                         return timing.connectEnd && timing.domInteractive ? timing.domInteractive - timing.connectEnd : void 0;
@@ -982,20 +986,17 @@
             function isDocumentReady() {
                 return Boolean(document.body) && "complete" === document.readyState;
             }
-            var documentReady = exports.documentReady = new _src.ZalgoPromise(function(resolve) {
-                if (isDocumentReady()) return resolve();
-                var interval = setInterval(function() {
-                    if (isDocumentReady()) {
-                        clearInterval(interval);
-                        return resolve();
-                    }
-                }, 10);
-            });
-            exports.documentBody = documentReady.then(function() {
-                if (document.body) return document.body;
-                throw new Error("Document ready but document.body not present");
-            });
-            var parseQuery = exports.parseQuery = (0, _util.memoize)(function(queryString) {
+            var waitForDocumentReady = exports.waitForDocumentReady = (0, _util.memoize)(function() {
+                return new _src.ZalgoPromise(function(resolve) {
+                    if (isDocumentReady()) return resolve();
+                    var interval = setInterval(function() {
+                        if (isDocumentReady()) {
+                            clearInterval(interval);
+                            return resolve();
+                        }
+                    }, 10);
+                });
+            }), parseQuery = exports.parseQuery = (0, _util.memoize)(function(queryString) {
                 var params = {};
                 if (!queryString) return params;
                 if (-1 === queryString.indexOf("=")) return params;
