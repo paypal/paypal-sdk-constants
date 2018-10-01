@@ -1,9 +1,9 @@
 /* @flow */
 
 export const INTENT = {
-    CAPTURE: ('capture' : 'capture'),
-    AUTH:    ('auth' : 'auth'),
-    ORDER:   ('order' : 'order')
+    CAPTURE:   ('capture' : 'capture'),
+    AUTHORIZE: ('authorize' : 'authorize'),
+    ORDER:     ('order' : 'order')
 };
 
 export const COMMIT = {
