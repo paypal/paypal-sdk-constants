@@ -1,7 +1,7 @@
-belter
-------
+paypal-sdk-constants
+--------------------
 
-Miscellaneous browser utils and tools.
+Constants for paypal sdk.
 
 Quick Start
 -----------
@@ -17,31 +17,6 @@ Quick Start
 
 ```bash
 npm run build
-```
-
-#### Tests
-
-- Edit tests in `./test/tests`
-- Run the tests:
-
-  ```bash
-  npm run test
-  ```
-
-#### Testing with different/multiple browsers
-
-```bash
-npm run karma -- --browser=PhantomJS
-npm run karma -- --browser=Chrome
-npm run karma -- --browser=Safari
-npm run karma -- --browser=Firefox
-npm run karma -- --browser=PhantomJS,Chrome,Safari,Firefox
-```
-
-#### Keeping the browser open after tests
-
-```bash
-npm run karma -- --browser=Chrome --keep-open
 ```
 
 #### Publishing

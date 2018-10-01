@@ -1,17 +1,17 @@
 {
-  "name": "belter",
-  "version": "1.0.5",
+  "name": "paypal-sdk-constants",
+  "version": "1.0.0",
   "description": "Utilities.",
   "main": "index.js",
   "scripts": {
     "setup": "npm install && npm run flow-typed",
     "lint": "eslint src/ test/ *.js",
-    "flow-typed": "flow-typed install",
+    "flow-typed": "rm -rf ./flow-typed && flow-typed install",
     "flow": "flow",
     "karma": "cross-env NODE_ENV=test babel-node --plugins=transform-es2015-modules-commonjs ./node_modules/.bin/karma start",
     "babel": "babel src/ --out-dir dist/module",
     "webpack": "babel-node --plugins=transform-es2015-modules-commonjs ./node_modules/.bin/webpack --progress",
-    "test": "npm run lint && npm run flow-typed && npm run flow && npm run karma",
+    "test": "npm run lint && npm run flow-typed && npm run flow",
     "build": "npm run test && npm run babel && npm run webpack",
     "release": "./publish.sh",
     "release:patch": "./publish.sh patch",
@@ -34,7 +34,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/krakenjs/belter.git"
+    "url": "git://github.com/paypal/paypal-sdk-constants.git"
   },
   "keywords": [
     "template"

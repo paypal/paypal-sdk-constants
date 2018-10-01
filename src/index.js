@@ -1,8 +1,9 @@
 /* @flow */
 
-export * from './device';
-export * from './dom';
-export * from './global';
-export * from './jsx';
-export * from './storage';
-export * from './util';
+export * from './locale';
+export * from './params';
+export * from './env';
+export * from './fpti';
+export * from './order';
+export * from './platform';
+export * from './funding';
