@@ -443,7 +443,7 @@
                 PAYMENTS_SDK: "payments_sdk"
             }, INTENT = {
                 CAPTURE: "capture",
-                AUTH: "auth",
+                AUTHORIZE: "authorize",
                 ORDER: "order"
             }, COMMIT = {
                 TRUE: !0,

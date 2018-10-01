@@ -1,6 +1,6 @@
 export var INTENT = {
     CAPTURE: 'capture',
-    AUTH: 'auth',
+    AUTHORIZE: 'authorize',
     ORDER: 'order'
 };
 
