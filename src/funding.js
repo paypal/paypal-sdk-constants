@@ -1,28 +1,28 @@
 /* @flow */
 
 export const FUNDING = {
-    PAYPAL:      'paypal',
-    VENMO:       'venmo',
-    CREDIT:      'credit',
-    CARD:        'card',
-    IDEAL:       'ideal',
-    SEPA:        'sepa',
-    BANCONTACT:  'bancontact',
-    GIROPAY:     'giropay',
-    SOFORT:      'sofort',
-    EPS:         'eps',
-    MYBANK:      'mybank',
-    P24:         'p24',
-    ZIMPLER:     'zimpler',
-    WECHATPAY:   'wechatpay'
+    PAYPAL:      ('paypal' : 'paypal'),
+    VENMO:       ('venmo' : 'venmo'),
+    CREDIT:      ('credit' : 'credit'),
+    CARD:        ('card' : 'card'),
+    IDEAL:       ('ideal' : 'ideal'),
+    SEPA:        ('sepa' : 'sepa'),
+    BANCONTACT:  ('bancontact' : 'bancontact'),
+    GIROPAY:     ('giropay' : 'giropay'),
+    SOFORT:      ('sofort' : 'sofort'),
+    EPS:         ('eps' : 'eps'),
+    MYBANK:      ('mybank' : 'mybank'),
+    P24:         ('p24' : 'p24'),
+    ZIMPLER:     ('zimpler' : 'zimpler'),
+    WECHATPAY:   ('wechatpay' : 'wechatpay')
 };
 
 export const CARD = {
-    VISA:        'visa',
-    MASTERCARD:  'mastercard',
-    AMEX:        'amex',
-    DISCOVER:    'discover',
-    HIPER:       'hiper',
-    ELO:         'elo',
-    JCB:         'jcb'
+    VISA:        ('visa' : 'visa'),
+    MASTERCARD:  ('mastercard' : 'mastercard'),
+    AMEX:        ('amex' : 'amex'),
+    DISCOVER:    ('discover' : 'discover'),
+    HIPER:       ('hiper' : 'hiper'),
+    ELO:         ('elo' : 'elo'),
+    JCB:         ('jcb' : 'jcb')
 };
