@@ -7,7 +7,7 @@
     "setup": "npm install && npm run flow-typed",
     "lint": "eslint src/ test/ *.js",
     "flow-typed": "rm -rf ./flow-typed && flow-typed install",
-    "flow:build": "flow gen-flow-files ./src/index.js --out-dir ./dist",
+    "flow:build": "flow gen-flow-files ./src/index.js > ./dist/paypal-sdk-constants.js.flow && flow gen-flow-files ./src/index.js > ./dist/paypal-sdk-constants.min.js.flow",
     "flow": "flow",
     "karma": "cross-env NODE_ENV=test babel-node --plugins=transform-es2015-modules-commonjs ./node_modules/.bin/karma start",
     "babel": "babel src/ --out-dir dist/module",
