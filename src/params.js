@@ -7,10 +7,6 @@ export const SDK_SETTINGS = {
     API_STAGE_HOST:         ('data-api-stage-host' : 'data-api-stage-host')
 };
 
-export const SDK_QUERY = {
-    CLIENT_ID: ('client-id' : 'client-id')
-};
-
 export const SDK_QUERY_KEYS = {
     COMPONENTS: ('components' : 'components'),
 
@@ -27,5 +23,8 @@ export const SDK_QUERY_KEYS = {
     ORDER_CURRENCY: ('order-currency' : 'order-currency'),
     ORDER_INTENT:   ('order-intent' : 'order-intent'),
     ORDER_COMMIT:   ('order-commit' : 'order-commit'),
-    ORDER_VAULT:    ('order-vault' : 'order-vault')
+    ORDER_VAULT:    ('order-vault' : 'order-vault'),
+
+    DISABLE_FUNDING: ('disable-funding' : 'disable-funding'),
+    DISABLE_CARD:    ('disable-card' : 'disable-card')
 };
