@@ -5,10 +5,6 @@ export var SDK_SETTINGS = {
     API_STAGE_HOST: 'data-api-stage-host'
 };
 
-export var SDK_QUERY = {
-    CLIENT_ID: 'client-id'
-};
-
 export var SDK_QUERY_KEYS = {
     COMPONENTS: 'components',
 
@@ -25,5 +21,8 @@ export var SDK_QUERY_KEYS = {
     ORDER_CURRENCY: 'order-currency',
     ORDER_INTENT: 'order-intent',
     ORDER_COMMIT: 'order-commit',
-    ORDER_VAULT: 'order-vault'
+    ORDER_VAULT: 'order-vault',
+
+    DISABLE_FUNDING: 'disable-funding',
+    DISABLE_CARD: 'disable-card'
 };
