@@ -33,8 +33,15 @@ export const FPTI_KEY = {
     PARTNER_ATTRIBUTION_ID: ('bn_code' : 'bn_code'),
     SDK_NAME:               ('sdk_name' : 'sdk_name'),
     SDK_VERSION:            ('sdk_version' : 'sdk_version'),
-    USER_AGENT:             ('user_agent' : 'user_agent')
+    USER_AGENT:             ('user_agent' : 'user_agent'),
+    USER_ACTION:            ('user_action' : 'user_action')
 };
+
+export const FPTI_USER_ACTION = {
+    COMMIT:   ('commit' : 'commit'),
+    CONTINUE: ('continue' : 'continue')
+};
+
 
 export const FPTI_DATA_SOURCE = {
     PAYMENTS_SDK: ('payments_sdk' : 'payments_sdk')
