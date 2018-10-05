@@ -31,7 +31,13 @@ export var FPTI_KEY = {
     PARTNER_ATTRIBUTION_ID: 'bn_code',
     SDK_NAME: 'sdk_name',
     SDK_VERSION: 'sdk_version',
-    USER_AGENT: 'user_agent'
+    USER_AGENT: 'user_agent',
+    USER_ACTION: 'user_action'
+};
+
+export var FPTI_USER_ACTION = {
+    COMMIT: 'commit',
+    CONTINUE: 'continue'
 };
 
 export var FPTI_DATA_SOURCE = {

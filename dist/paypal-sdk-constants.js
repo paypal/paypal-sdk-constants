@@ -434,7 +434,11 @@
                 PARTNER_ATTRIBUTION_ID: "bn_code",
                 SDK_NAME: "sdk_name",
                 SDK_VERSION: "sdk_version",
-                USER_AGENT: "user_agent"
+                USER_AGENT: "user_agent",
+                USER_ACTION: "user_action"
+            }, FPTI_USER_ACTION = {
+                COMMIT: "commit",
+                CONTINUE: "continue"
             }, FPTI_DATA_SOURCE = {
                 PAYMENTS_SDK: "payments_sdk"
             }, FPTI_FEED = {
@@ -524,6 +528,9 @@
             });
             __webpack_require__.d(__webpack_exports__, "FPTI_KEY", function() {
                 return FPTI_KEY;
+            });
+            __webpack_require__.d(__webpack_exports__, "FPTI_USER_ACTION", function() {
+                return FPTI_USER_ACTION;
             });
             __webpack_require__.d(__webpack_exports__, "FPTI_DATA_SOURCE", function() {
                 return FPTI_DATA_SOURCE;
