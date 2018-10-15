@@ -506,7 +506,8 @@
                 DISCOVER: "discover",
                 HIPER: "hiper",
                 ELO: "elo",
-                JCB: "jcb"
+                JCB: "jcb",
+                CUP: "cup"
             };
             __webpack_require__.d(__webpack_exports__, "COUNTRY", function() {
                 return COUNTRY;

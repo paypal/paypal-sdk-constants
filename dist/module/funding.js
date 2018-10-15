@@ -22,5 +22,6 @@ export var CARD = {
     DISCOVER: 'discover',
     HIPER: 'hiper',
     ELO: 'elo',
-    JCB: 'jcb'
+    JCB: 'jcb',
+    CUP: 'cup'
 };
