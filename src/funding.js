@@ -24,5 +24,6 @@ export const CARD = {
     DISCOVER:    ('discover' : 'discover'),
     HIPER:       ('hiper' : 'hiper'),
     ELO:         ('elo' : 'elo'),
-    JCB:         ('jcb' : 'jcb')
+    JCB:         ('jcb' : 'jcb'),
+    CUP:         ('cup' : 'cup')
 };
