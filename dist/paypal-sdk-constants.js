@@ -435,7 +435,8 @@
                 SDK_NAME: "sdk_name",
                 SDK_VERSION: "sdk_version",
                 USER_AGENT: "user_agent",
-                USER_ACTION: "user_action"
+                USER_ACTION: "user_action",
+                CONTEXT_CORRID: "context_correlation_id"
             }, FPTI_USER_ACTION = {
                 COMMIT: "commit",
                 CONTINUE: "continue"
