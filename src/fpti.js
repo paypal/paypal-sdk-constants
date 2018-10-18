@@ -34,7 +34,8 @@ export const FPTI_KEY = {
     SDK_NAME:               ('sdk_name' : 'sdk_name'),
     SDK_VERSION:            ('sdk_version' : 'sdk_version'),
     USER_AGENT:             ('user_agent' : 'user_agent'),
-    USER_ACTION:            ('user_action' : 'user_action')
+    USER_ACTION:            ('user_action' : 'user_action'),
+    CONTEXT_CORRID:         ('context_correlation_id' : 'context_correlation_id')
 };
 
 export const FPTI_USER_ACTION = {
