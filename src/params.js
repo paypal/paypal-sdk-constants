@@ -38,3 +38,8 @@ export const DEBUG = {
     TRUE:  (true : true),
     FALSE: (false : false)
 };
+
+export const QUERY_BOOL = {
+    TRUE:  ('true' : 'true'),
+    FALSE: ('false' : 'false')
+};
