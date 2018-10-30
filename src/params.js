@@ -33,3 +33,8 @@ export const COMPONENTS = {
     BUTTONS:       ('buttons' : 'buttons'),
     HOSTED_FIELDS: ('hosted-fields' : 'hosted-fields')
 };
+
+export const DEBUG = {
+    TRUE:  (true : true),
+    FALSE: (false : false)
+};
