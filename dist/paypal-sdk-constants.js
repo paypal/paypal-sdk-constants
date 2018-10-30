@@ -401,6 +401,9 @@
             }, DEBUG = {
                 TRUE: !0,
                 FALSE: !1
+            }, QUERY_BOOL = {
+                TRUE: "true",
+                FALSE: "false"
             }, ENV = {
                 LOCAL: "local",
                 STAGE: "stage",
@@ -536,6 +539,9 @@
             });
             __webpack_require__.d(__webpack_exports__, "DEBUG", function() {
                 return DEBUG;
+            });
+            __webpack_require__.d(__webpack_exports__, "QUERY_BOOL", function() {
+                return QUERY_BOOL;
             });
             __webpack_require__.d(__webpack_exports__, "ENV", function() {
                 return ENV;

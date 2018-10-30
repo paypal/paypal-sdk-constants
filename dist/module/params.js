@@ -36,3 +36,8 @@ export var DEBUG = {
     TRUE: true,
     FALSE: false
 };
+
+export var QUERY_BOOL = {
+    TRUE: 'true',
+    FALSE: 'false'
+};
