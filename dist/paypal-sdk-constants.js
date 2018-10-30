@@ -395,6 +395,9 @@
                 ORDER_VAULT: "order-vault",
                 DISABLE_FUNDING: "disable-funding",
                 DISABLE_CARD: "disable-card"
+            }, COMPONENTS = {
+                BUTTONS: "buttons",
+                HOSTED_FIELDS: "hosted-fields"
             }, ENV = {
                 LOCAL: "local",
                 STAGE: "stage",
@@ -509,7 +512,7 @@
                 ELO: "elo",
                 JCB: "jcb",
                 CUP: "cup"
-            };
+            }, DEFAULT_COUNTRY = COUNTRY.US, DEFAULT_CURRENCY = CURRENCY.USD, DEFAULT_INTENT = INTENT.CAPTURE, DEFAULT_COMMIT = COMMIT.TRUE, DEFAULT_VAULT = VAULT.TRUE, DEFAULT_COMPONENTS = COMPONENTS.BUTTONS;
             __webpack_require__.d(__webpack_exports__, "COUNTRY", function() {
                 return COUNTRY;
             });
@@ -524,6 +527,9 @@
             });
             __webpack_require__.d(__webpack_exports__, "SDK_QUERY_KEYS", function() {
                 return SDK_QUERY_KEYS;
+            });
+            __webpack_require__.d(__webpack_exports__, "COMPONENTS", function() {
+                return COMPONENTS;
             });
             __webpack_require__.d(__webpack_exports__, "ENV", function() {
                 return ENV;
@@ -563,6 +569,24 @@
             });
             __webpack_require__.d(__webpack_exports__, "CARD", function() {
                 return CARD;
+            });
+            __webpack_require__.d(__webpack_exports__, "DEFAULT_COUNTRY", function() {
+                return DEFAULT_COUNTRY;
+            });
+            __webpack_require__.d(__webpack_exports__, "DEFAULT_CURRENCY", function() {
+                return DEFAULT_CURRENCY;
+            });
+            __webpack_require__.d(__webpack_exports__, "DEFAULT_INTENT", function() {
+                return DEFAULT_INTENT;
+            });
+            __webpack_require__.d(__webpack_exports__, "DEFAULT_COMMIT", function() {
+                return DEFAULT_COMMIT;
+            });
+            __webpack_require__.d(__webpack_exports__, "DEFAULT_VAULT", function() {
+                return DEFAULT_VAULT;
+            });
+            __webpack_require__.d(__webpack_exports__, "DEFAULT_COMPONENTS", function() {
+                return DEFAULT_COMPONENTS;
             });
         }
     });

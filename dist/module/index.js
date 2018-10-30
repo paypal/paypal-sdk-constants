@@ -5,3 +5,4 @@ export * from './fpti';
 export * from './order';
 export * from './platform';
 export * from './funding';
+export * from './defaults';
