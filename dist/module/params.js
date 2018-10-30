@@ -31,3 +31,8 @@ export var COMPONENTS = {
     BUTTONS: 'buttons',
     HOSTED_FIELDS: 'hosted-fields'
 };
+
+export var DEBUG = {
+    TRUE: true,
+    FALSE: false
+};

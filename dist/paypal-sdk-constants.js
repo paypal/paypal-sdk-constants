@@ -398,6 +398,9 @@
             }, COMPONENTS = {
                 BUTTONS: "buttons",
                 HOSTED_FIELDS: "hosted-fields"
+            }, DEBUG = {
+                TRUE: !0,
+                FALSE: !1
             }, ENV = {
                 LOCAL: "local",
                 STAGE: "stage",
@@ -512,7 +515,7 @@
                 ELO: "elo",
                 JCB: "jcb",
                 CUP: "cup"
-            }, DEFAULT_COUNTRY = COUNTRY.US, DEFAULT_CURRENCY = CURRENCY.USD, DEFAULT_INTENT = INTENT.CAPTURE, DEFAULT_COMMIT = COMMIT.TRUE, DEFAULT_VAULT = VAULT.TRUE, DEFAULT_COMPONENTS = COMPONENTS.BUTTONS;
+            }, DEFAULT_COUNTRY = COUNTRY.US, DEFAULT_CURRENCY = CURRENCY.USD, DEFAULT_INTENT = INTENT.CAPTURE, DEFAULT_COMMIT = COMMIT.TRUE, DEFAULT_VAULT = VAULT.TRUE, DEFAULT_COMPONENTS = COMPONENTS.BUTTONS, DEFAULT_DEBUG = DEBUG.FALSE;
             __webpack_require__.d(__webpack_exports__, "COUNTRY", function() {
                 return COUNTRY;
             });
@@ -530,6 +533,9 @@
             });
             __webpack_require__.d(__webpack_exports__, "COMPONENTS", function() {
                 return COMPONENTS;
+            });
+            __webpack_require__.d(__webpack_exports__, "DEBUG", function() {
+                return DEBUG;
             });
             __webpack_require__.d(__webpack_exports__, "ENV", function() {
                 return ENV;
@@ -587,6 +593,9 @@
             });
             __webpack_require__.d(__webpack_exports__, "DEFAULT_COMPONENTS", function() {
                 return DEFAULT_COMPONENTS;
+            });
+            __webpack_require__.d(__webpack_exports__, "DEFAULT_DEBUG", function() {
+                return DEFAULT_DEBUG;
             });
         }
     });
