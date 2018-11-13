@@ -528,6 +528,9 @@
             __webpack_require__.d(__webpack_exports__, "COUNTRY_LANGS", function() {
                 return COUNTRY_LANGS;
             });
+            __webpack_require__.d(__webpack_exports__, "SDK_PATH", function() {
+                return "/sdk/js";
+            });
             __webpack_require__.d(__webpack_exports__, "SDK_SETTINGS", function() {
                 return SDK_SETTINGS;
             });

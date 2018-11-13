@@ -27,6 +27,7 @@ declare export var LANG: {AR: "ar", CS: "cs", DA: "da", DE: "de", EL: "el", EN: 
 export type LocaleType = {country: mixed /* UNEXPECTED TYPE: EvalT */, lang: mixed /* UNEXPECTED TYPE: EvalT */};
 declare export var PLATFORM: {DESKTOP: "desktop", MOBILE: "mobile"};
 declare export var QUERY_BOOL: {FALSE: "false", TRUE: "true"};
+declare export var SDK_PATH: string;
 declare export var SDK_QUERY_KEYS: {CACHEBUST: "cachebust", CLIENT_ID: "client-id", COMPONENTS: "components", DEBUG: "debug", DISABLE_CARD: "disable-card", DISABLE_FUNDING: "disable-funding", ENV: "env", LOCALE_COUNTRY: "locale-country", LOCALE_LANG: "locale-lang", MERCHANT_ID: "merchant-id", ORDER_COMMIT: "order-commit", ORDER_CURRENCY: "order-currency", ORDER_INTENT: "order-intent", ORDER_VAULT: "order-vault"};
 declare export var SDK_SETTINGS: {API_STAGE_HOST: "data-api-stage-host", CLIENT_TOKEN: "data-client-token", PARTNER_ATTRIBUTION_ID: "data-partner-attribution-id", STAGE_HOST: "data-stage-host"};
 declare export var VAULT: {FALSE: false, TRUE: true};

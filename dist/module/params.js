@@ -1,3 +1,5 @@
+export var SDK_PATH = '/sdk/js';
+
 export var SDK_SETTINGS = {
     CLIENT_TOKEN: 'data-client-token',
     PARTNER_ATTRIBUTION_ID: 'data-partner-attribution-id',
