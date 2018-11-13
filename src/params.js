@@ -1,5 +1,7 @@
 /* @flow */
 
+export const SDK_PATH = '/sdk/js';
+
 export const SDK_SETTINGS = {
     CLIENT_TOKEN:           ('data-client-token' : 'data-client-token'),
     PARTNER_ATTRIBUTION_ID: ('data-partner-attribution-id' : 'data-partner-attribution-id'),
