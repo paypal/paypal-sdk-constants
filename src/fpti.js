@@ -45,7 +45,7 @@ export const FPTI_USER_ACTION = {
 
 
 export const FPTI_DATA_SOURCE = {
-    PAYMENTS_SDK: ('payments_sdk' : 'payments_sdk')
+    PAYMENTS_SDK: ('checkout' : 'checkout')
 };
 
 export const FPTI_FEED = {
