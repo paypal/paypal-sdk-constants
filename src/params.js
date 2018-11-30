@@ -19,6 +19,8 @@ export const SDK_QUERY_KEYS = {
     CLIENT_ID:   ('client-id' : 'client-id'),
     MERCHANT_ID: ('merchant-id' : 'merchant-id'),
 
+    LOCALE: ('locale' : 'locale'),
+
     LOCALE_COUNTRY: ('locale-country' : 'locale-country'),
     LOCALE_LANG:    ('locale-lang' : 'locale-lang'),
 
