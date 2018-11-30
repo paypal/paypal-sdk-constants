@@ -387,6 +387,7 @@
                 CACHEBUST: "cachebust",
                 CLIENT_ID: "client-id",
                 MERCHANT_ID: "merchant-id",
+                LOCALE: "locale",
                 LOCALE_COUNTRY: "locale-country",
                 LOCALE_LANG: "locale-lang",
                 ORDER_CURRENCY: "order-currency",
@@ -450,7 +451,7 @@
                 COMMIT: "commit",
                 CONTINUE: "continue"
             }, FPTI_DATA_SOURCE = {
-                PAYMENTS_SDK: "payments_sdk"
+                PAYMENTS_SDK: "checkout"
             }, FPTI_FEED = {
                 PAYMENTS_SDK: "payments_sdk"
             }, FPTI_SDK_NAME = {

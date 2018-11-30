@@ -16,7 +16,7 @@ declare export var DEFAULT_DEBUG: false;
 declare export var DEFAULT_INTENT: "capture";
 declare export var DEFAULT_VAULT: true;
 declare export var ENV: {LOCAL: "local", PRODUCTION: "production", SANDBOX: "sandbox", STAGE: "stage", TEST: "test"};
-declare export var FPTI_DATA_SOURCE: {PAYMENTS_SDK: "payments_sdk"};
+declare export var FPTI_DATA_SOURCE: {PAYMENTS_SDK: "checkout"};
 declare export var FPTI_FEED: {PAYMENTS_SDK: "payments_sdk"};
 declare export var FPTI_KEY: {BUTTON_LAYOUT: "button_layout", BUTTON_SESSION_UID: "button_session_id", BUTTON_SOURCE: "button_source", BUTTON_TYPE: "button_type", BUYER_COUNTRY: "buyer_cntry", CHOSEN_FUNDING: "selected_payment_method", CLIENT_ID: "client_id", CONTEXT_CORRID: "context_correlation_id", CONTEXT_ID: "context_id", CONTEXT_TYPE: "context_type", DATA_SOURCE: "serverside_data_source", ERROR_CODE: "ext_error_code", ERROR_DESC: "ext_error_desc", EXPERIMENT_NAME: "pxp_exp_id", FEED: "feed_name", FUNDING_COUNT: "eligible_payment_count", FUNDING_LIST: "eligible_payment_methods", INTEGRATION_IDENTIFIER: "integration_identifier", LOCALE: "locale", PAGE_LOAD_TIME: "page_load_time", PARTNER_ATTRIBUTION_ID: "bn_code", PAY_ID: "pay_id", REFERER: "referer_url", SDK_NAME: "sdk_name", SDK_VERSION: "sdk_version", SELLER_ID: "seller_id", SESSION_UID: "page_session_id", STATE: "state_name", TOKEN: "token", TRANSITION: "transition_name", TRANSITION_TIME: "transition_time", TREATMENT_NAME: "pxp_trtmnt_id", USER_ACTION: "user_action", USER_AGENT: "user_agent", VERSION: "checkoutjs_version"};
 declare export var FPTI_SDK_NAME: {PAYMENTS_SDK: "payments_sdk"};
@@ -28,7 +28,7 @@ export type LocaleType = {country: mixed /* UNEXPECTED TYPE: EvalT */, lang: mix
 declare export var PLATFORM: {DESKTOP: "desktop", MOBILE: "mobile"};
 declare export var QUERY_BOOL: {FALSE: "false", TRUE: "true"};
 declare export var SDK_PATH: string;
-declare export var SDK_QUERY_KEYS: {CACHEBUST: "cachebust", CLIENT_ID: "client-id", COMPONENTS: "components", DEBUG: "debug", DISABLE_CARD: "disable-card", DISABLE_FUNDING: "disable-funding", ENV: "env", LOCALE_COUNTRY: "locale-country", LOCALE_LANG: "locale-lang", MERCHANT_ID: "merchant-id", ORDER_COMMIT: "order-commit", ORDER_CURRENCY: "order-currency", ORDER_INTENT: "order-intent", ORDER_VAULT: "order-vault"};
+declare export var SDK_QUERY_KEYS: {CACHEBUST: "cachebust", CLIENT_ID: "client-id", COMPONENTS: "components", DEBUG: "debug", DISABLE_CARD: "disable-card", DISABLE_FUNDING: "disable-funding", ENV: "env", LOCALE: "locale", LOCALE_COUNTRY: "locale-country", LOCALE_LANG: "locale-lang", MERCHANT_ID: "merchant-id", ORDER_COMMIT: "order-commit", ORDER_CURRENCY: "order-currency", ORDER_INTENT: "order-intent", ORDER_VAULT: "order-vault"};
 declare export var SDK_SETTINGS: {API_STAGE_HOST: "data-api-stage-host", CLIENT_TOKEN: "data-client-token", PARTNER_ATTRIBUTION_ID: "data-partner-attribution-id", STAGE_HOST: "data-stage-host"};
 declare export var VAULT: {FALSE: false, TRUE: true};
 

@@ -42,7 +42,7 @@ export var FPTI_USER_ACTION = {
 };
 
 export var FPTI_DATA_SOURCE = {
-    PAYMENTS_SDK: 'payments_sdk'
+    PAYMENTS_SDK: 'checkout'
 };
 
 export var FPTI_FEED = {

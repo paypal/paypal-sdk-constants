@@ -17,6 +17,8 @@ export var SDK_QUERY_KEYS = {
     CLIENT_ID: 'client-id',
     MERCHANT_ID: 'merchant-id',
 
+    LOCALE: 'locale',
+
     LOCALE_COUNTRY: 'locale-country',
     LOCALE_LANG: 'locale-lang',
 
