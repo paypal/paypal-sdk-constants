@@ -392,6 +392,7 @@
                 INTENT: "intent",
                 COMMIT: "commit",
                 VAULT: "vault",
+                BUYER_COUNTRY: "buyer-country",
                 DISABLE_FUNDING: "disable-funding",
                 DISABLE_CARD: "disable-card",
                 LOCALE_COUNTRY: "locale-country",
