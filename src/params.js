@@ -21,16 +21,21 @@ export const SDK_QUERY_KEYS = {
 
     LOCALE: ('locale' : 'locale'),
 
+    CURRENCY: ('currency' : 'currency'),
+    INTENT:   ('intent' : 'intent'),
+    COMMIT:   ('commit' : 'commit'),
+    VAULT:    ('vault' : 'vault'),
+
+    DISABLE_FUNDING: ('disable-funding' : 'disable-funding'),
+    DISABLE_CARD:    ('disable-card' : 'disable-card'),
+
     LOCALE_COUNTRY: ('locale-country' : 'locale-country'),
     LOCALE_LANG:    ('locale-lang' : 'locale-lang'),
 
     ORDER_CURRENCY: ('order-currency' : 'order-currency'),
     ORDER_INTENT:   ('order-intent' : 'order-intent'),
     ORDER_COMMIT:   ('order-commit' : 'order-commit'),
-    ORDER_VAULT:    ('order-vault' : 'order-vault'),
-
-    DISABLE_FUNDING: ('disable-funding' : 'disable-funding'),
-    DISABLE_CARD:    ('disable-card' : 'disable-card')
+    ORDER_VAULT:    ('order-vault' : 'order-vault')
 };
 
 export const COMPONENTS = {
