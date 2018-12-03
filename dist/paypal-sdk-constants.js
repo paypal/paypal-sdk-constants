@@ -388,14 +388,18 @@
                 CLIENT_ID: "client-id",
                 MERCHANT_ID: "merchant-id",
                 LOCALE: "locale",
+                CURRENCY: "currency",
+                INTENT: "intent",
+                COMMIT: "commit",
+                VAULT: "vault",
+                DISABLE_FUNDING: "disable-funding",
+                DISABLE_CARD: "disable-card",
                 LOCALE_COUNTRY: "locale-country",
                 LOCALE_LANG: "locale-lang",
                 ORDER_CURRENCY: "order-currency",
                 ORDER_INTENT: "order-intent",
                 ORDER_COMMIT: "order-commit",
-                ORDER_VAULT: "order-vault",
-                DISABLE_FUNDING: "disable-funding",
-                DISABLE_CARD: "disable-card"
+                ORDER_VAULT: "order-vault"
             }, COMPONENTS = {
                 BUTTONS: "buttons",
                 HOSTED_FIELDS: "hosted-fields"
