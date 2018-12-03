@@ -26,6 +26,8 @@ export const SDK_QUERY_KEYS = {
     COMMIT:   ('commit' : 'commit'),
     VAULT:    ('vault' : 'vault'),
 
+    BUYER_COUNTRY: ('buyer-country' : 'buyer-country'),
+
     DISABLE_FUNDING: ('disable-funding' : 'disable-funding'),
     DISABLE_CARD:    ('disable-card' : 'disable-card'),
 
