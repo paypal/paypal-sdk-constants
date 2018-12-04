@@ -14,7 +14,7 @@ declare export var DEFAULT_COUNTRY: "US";
 declare export var DEFAULT_CURRENCY: "USD";
 declare export var DEFAULT_DEBUG: false;
 declare export var DEFAULT_INTENT: "capture";
-declare export var DEFAULT_VAULT: true;
+declare export var DEFAULT_VAULT: false;
 declare export var ENV: {LOCAL: "local", PRODUCTION: "production", SANDBOX: "sandbox", STAGE: "stage", TEST: "test"};
 declare export var FPTI_DATA_SOURCE: {PAYMENTS_SDK: "checkout"};
 declare export var FPTI_FEED: {PAYMENTS_SDK: "payments_sdk"};
