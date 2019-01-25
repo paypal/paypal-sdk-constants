@@ -54,3 +54,5 @@ export const QUERY_BOOL = {
     TRUE:  ('true' : 'true'),
     FALSE: ('false' : 'false')
 };
+
+export const UNKNOWN = ('unknown' : 'unknown');
