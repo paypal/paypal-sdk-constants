@@ -52,3 +52,5 @@ export var QUERY_BOOL = {
     TRUE: 'true',
     FALSE: 'false'
 };
+
+export var UNKNOWN = 'unknown';
