@@ -524,7 +524,7 @@
                 ELO: "elo",
                 JCB: "jcb",
                 CUP: "cup"
-            }, DEFAULT_COUNTRY = COUNTRY.US, DEFAULT_CURRENCY = CURRENCY.USD, DEFAULT_INTENT = INTENT.CAPTURE, DEFAULT_COMMIT = COMMIT.TRUE, DEFAULT_VAULT = VAULT.FALSE, DEFAULT_COMPONENTS = COMPONENTS.BUTTONS, DEFAULT_DEBUG = DEBUG.FALSE;
+            }, DEFAULT_COUNTRY = COUNTRY.US, DEFAULT_CURRENCY = CURRENCY.USD, DEFAULT_INTENT = INTENT.CAPTURE, DEFAULT_COMMIT = COMMIT.TRUE, DEFAULT_SALE_COMMIT = COMMIT.TRUE, DEFAULT_NONSALE_COMMIT = COMMIT.FALSE, DEFAULT_VAULT = VAULT.FALSE, DEFAULT_COMPONENTS = COMPONENTS.BUTTONS, DEFAULT_DEBUG = DEBUG.FALSE;
             __webpack_require__.d(__webpack_exports__, "COUNTRY", function() {
                 return COUNTRY;
             });
@@ -605,6 +605,12 @@
             });
             __webpack_require__.d(__webpack_exports__, "DEFAULT_COMMIT", function() {
                 return DEFAULT_COMMIT;
+            });
+            __webpack_require__.d(__webpack_exports__, "DEFAULT_SALE_COMMIT", function() {
+                return DEFAULT_SALE_COMMIT;
+            });
+            __webpack_require__.d(__webpack_exports__, "DEFAULT_NONSALE_COMMIT", function() {
+                return DEFAULT_NONSALE_COMMIT;
             });
             __webpack_require__.d(__webpack_exports__, "DEFAULT_VAULT", function() {
                 return DEFAULT_VAULT;
