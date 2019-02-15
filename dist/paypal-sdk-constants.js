@@ -397,6 +397,7 @@
                 DISABLE_CARD: "disable-card",
                 LOCALE_COUNTRY: "locale-country",
                 LOCALE_LANG: "locale-lang",
+                INTEGRATION_DATE: "integration-date",
                 ORDER_CURRENCY: "order-currency",
                 ORDER_INTENT: "order-intent",
                 ORDER_COMMIT: "order-commit",
