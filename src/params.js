@@ -34,6 +34,8 @@ export const SDK_QUERY_KEYS = {
     LOCALE_COUNTRY: ('locale-country' : 'locale-country'),
     LOCALE_LANG:    ('locale-lang' : 'locale-lang'),
 
+    INTEGRATION_DATE: ('integration-date' : 'integration-date'),
+
     ORDER_CURRENCY: ('order-currency' : 'order-currency'),
     ORDER_INTENT:   ('order-intent' : 'order-intent'),
     ORDER_COMMIT:   ('order-commit' : 'order-commit'),
