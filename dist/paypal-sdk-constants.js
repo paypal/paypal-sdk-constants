@@ -397,6 +397,7 @@
                 DISABLE_CARD: "disable-card",
                 LOCALE_COUNTRY: "locale-country",
                 LOCALE_LANG: "locale-lang",
+                FRAMEWORK: "framework",
                 INTEGRATION_DATE: "integration-date",
                 ORDER_CURRENCY: "order-currency",
                 ORDER_INTENT: "order-intent",
@@ -405,6 +406,11 @@
             }, COMPONENTS = {
                 BUTTONS: "buttons",
                 HOSTED_FIELDS: "hosted-fields"
+            }, FRAMEWORK = {
+                ANGULARJS: "angularjs",
+                ANGULAR: "angular",
+                REACT: "react",
+                VUE: "vue"
             }, DEBUG = {
                 TRUE: !0,
                 FALSE: !1
@@ -546,6 +552,9 @@
             });
             __webpack_require__.d(__webpack_exports__, "COMPONENTS", function() {
                 return COMPONENTS;
+            });
+            __webpack_require__.d(__webpack_exports__, "FRAMEWORK", function() {
+                return FRAMEWORK;
             });
             __webpack_require__.d(__webpack_exports__, "DEBUG", function() {
                 return DEBUG;
