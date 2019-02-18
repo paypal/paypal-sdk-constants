@@ -34,6 +34,8 @@ export const SDK_QUERY_KEYS = {
     LOCALE_COUNTRY: ('locale-country' : 'locale-country'),
     LOCALE_LANG:    ('locale-lang' : 'locale-lang'),
 
+    FRAMEWORK: ('framework' : 'framework'),
+
     INTEGRATION_DATE: ('integration-date' : 'integration-date'),
 
     ORDER_CURRENCY: ('order-currency' : 'order-currency'),
@@ -45,6 +47,13 @@ export const SDK_QUERY_KEYS = {
 export const COMPONENTS = {
     BUTTONS:       ('buttons' : 'buttons'),
     HOSTED_FIELDS: ('hosted-fields' : 'hosted-fields')
+};
+
+export const FRAMEWORK = {
+    ANGULARJS: ('angularjs' : 'angularjs'),
+    ANGULAR:   ('angular' : 'angular'),
+    REACT:     ('react' : 'react'),
+    VUE:       ('vue' : 'vue')
 };
 
 export const DEBUG = {
