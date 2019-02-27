@@ -6,7 +6,8 @@ export const SDK_SETTINGS = {
     CLIENT_TOKEN:           ('data-client-token' : 'data-client-token'),
     PARTNER_ATTRIBUTION_ID: ('data-partner-attribution-id' : 'data-partner-attribution-id'),
     STAGE_HOST:             ('data-stage-host' : 'data-stage-host'),
-    API_STAGE_HOST:         ('data-api-stage-host' : 'data-api-stage-host')
+    API_STAGE_HOST:         ('data-api-stage-host' : 'data-api-stage-host'),
+    CSP_NONCE:              ('data-csp-nonce' : 'data-csp-nonce')
 };
 
 export const SDK_QUERY_KEYS = {
