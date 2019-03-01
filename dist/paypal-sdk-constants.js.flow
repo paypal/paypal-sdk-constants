@@ -14,7 +14,7 @@ declare export var DEFAULT_COUNTRY: "US";
 declare export var DEFAULT_CURRENCY: "USD";
 declare export var DEFAULT_DEBUG: false;
 declare export var DEFAULT_INTENT: "capture";
-declare export var DEFAULT_NONSALE_COMMIT: false;
+declare export var DEFAULT_NONSALE_COMMIT: true;
 declare export var DEFAULT_SALE_COMMIT: true;
 declare export var DEFAULT_VAULT: false;
 declare export var ENV: {LOCAL: "local", PRODUCTION: "production", SANDBOX: "sandbox", STAGE: "stage", TEST: "test"};
