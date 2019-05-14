@@ -380,7 +380,8 @@
                 PARTNER_ATTRIBUTION_ID: "data-partner-attribution-id",
                 STAGE_HOST: "data-stage-host",
                 API_STAGE_HOST: "data-api-stage-host",
-                CSP_NONCE: "data-csp-nonce"
+                CSP_NONCE: "data-csp-nonce",
+                ENABLE_3DS: "data-enable-3ds"
             }, SDK_QUERY_KEYS = {
                 COMPONENTS: "components",
                 ENV: "env",
