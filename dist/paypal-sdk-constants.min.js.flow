@@ -24,7 +24,7 @@ declare export var FPTI_KEY: {BUTTON_LAYOUT: "button_layout", BUTTON_SESSION_UID
 declare export var FPTI_SDK_NAME: {PAYMENTS_SDK: "payments_sdk"};
 declare export var FPTI_USER_ACTION: {COMMIT: "commit", CONTINUE: "continue"};
 declare export var FRAMEWORK: {ANGULAR: "angular", ANGULARJS: "angularjs", REACT: "react", VUE: "vue"};
-declare export var FUNDING: {BANCONTACT: "bancontact", CARD: "card", CREDIT: "credit", EPS: "eps", GIROPAY: "giropay", IDEAL: "ideal", MYBANK: "mybank", P24: "p24", PAYPAL: "paypal", SEPA: "sepa", SOFORT: "sofort", VENMO: "venmo", WECHATPAY: "wechatpay", ZIMPLER: "zimpler"};
+declare export var FUNDING: {BANCONTACT: "bancontact", CARD: "card", CREDIT: "credit", EPS: "eps", GIROPAY: "giropay", IDEAL: "ideal", ITAU: "itau", MYBANK: "mybank", P24: "p24", PAYPAL: "paypal", SEPA: "sepa", SOFORT: "sofort", VENMO: "venmo", WECHATPAY: "wechatpay", ZIMPLER: "zimpler"};
 declare export var INTENT: {AUTHORIZE: "authorize", CAPTURE: "capture", ORDER: "order"};
 declare export var LANG: {AR: "ar", CS: "cs", DA: "da", DE: "de", EL: "el", EN: "en", ES: "es", FI: "fi", FR: "fr", HE: "he", HU: "hu", ID: "id", IT: "it", JA: "ja", KO: "ko", NL: "nl", NO: "no", PL: "pl", PT: "pt", RU: "ru", SK: "sk", SV: "sv", TH: "th", TR: "tr", ZH: "zh"};
 export type LocaleType = {country: mixed /* UNEXPECTED TYPE: EvalT */, lang: mixed /* UNEXPECTED TYPE: EvalT */};
