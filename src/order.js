@@ -28,6 +28,7 @@ export const CURRENCY = {
     INR: ('INR' : 'INR'),
     ILS: ('ILS' : 'ILS'),
     JPY: ('JPY' : 'JPY'),
+    MUR: ('MUR' : 'MUR'),
     MYR: ('MYR' : 'MYR'),
     MXN: ('MXN' : 'MXN'),
     TWD: ('TWD' : 'TWD'),
