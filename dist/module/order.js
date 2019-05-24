@@ -26,6 +26,7 @@ export var CURRENCY = {
     INR: 'INR',
     ILS: 'ILS',
     JPY: 'JPY',
+    MUR: 'MUR',
     MYR: 'MYR',
     MXN: 'MXN',
     TWD: 'TWD',

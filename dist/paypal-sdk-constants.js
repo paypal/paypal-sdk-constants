@@ -492,6 +492,7 @@
                 INR: "INR",
                 ILS: "ILS",
                 JPY: "JPY",
+                MUR: "MUR",
                 MYR: "MYR",
                 MXN: "MXN",
                 TWD: "TWD",
@@ -512,6 +513,7 @@
             }, FUNDING = {
                 PAYPAL: "paypal",
                 VENMO: "venmo",
+                ITAU: "itau",
                 CREDIT: "credit",
                 CARD: "card",
                 IDEAL: "ideal",
