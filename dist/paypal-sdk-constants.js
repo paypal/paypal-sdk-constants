@@ -419,6 +419,9 @@
             }, QUERY_BOOL = {
                 TRUE: "true",
                 FALSE: "false"
+            }, PROTOCOL = {
+                HTTP: "http",
+                HTTPS: "https"
             }, ENV = {
                 LOCAL: "local",
                 STAGE: "stage",
@@ -568,6 +571,9 @@
             });
             __webpack_require__.d(__webpack_exports__, "UNKNOWN", function() {
                 return "unknown";
+            });
+            __webpack_require__.d(__webpack_exports__, "PROTOCOL", function() {
+                return PROTOCOL;
             });
             __webpack_require__.d(__webpack_exports__, "ENV", function() {
                 return ENV;
