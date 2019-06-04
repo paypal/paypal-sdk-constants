@@ -69,3 +69,8 @@ export const QUERY_BOOL = {
 };
 
 export const UNKNOWN = ('unknown' : 'unknown');
+
+export const PROTOCOL = {
+    HTTP:  ('http' : 'http'),
+    HTTPS: ('https' : 'https')
+};
