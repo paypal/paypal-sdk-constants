@@ -9,6 +9,7 @@ export var FPTI_KEY = {
     CONTEXT_ID: 'context_id',
     CONTEXT_TYPE: 'context_type',
     REFERER: 'referer_url',
+    MERCHANT_DOMAIN: 'merchant_domain',
     PAY_ID: 'pay_id',
     SELLER_ID: 'seller_id',
     CLIENT_ID: 'client_id',
