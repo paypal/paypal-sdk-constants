@@ -3,6 +3,7 @@
 export const SDK_PATH = '/sdk/js';
 
 export const SDK_SETTINGS = {
+    NAMESPACE:              ('data-namespace' : 'data-namespace'),
     CLIENT_TOKEN:           ('data-client-token' : 'data-client-token'),
     PARTNER_ATTRIBUTION_ID: ('data-partner-attribution-id' : 'data-partner-attribution-id'),
     STAGE_HOST:             ('data-stage-host' : 'data-stage-host'),
