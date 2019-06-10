@@ -376,6 +376,7 @@
             _COUNTRY_LANGS[COUNTRY.YT] = [ LANG.EN, LANG.FR, LANG.ES, LANG.ZH ], _COUNTRY_LANGS[COUNTRY.ZA] = [ LANG.EN, LANG.FR, LANG.ES, LANG.ZH ], 
             _COUNTRY_LANGS[COUNTRY.ZM] = [ LANG.EN, LANG.FR, LANG.ES, LANG.ZH ], _COUNTRY_LANGS[COUNTRY.ZW] = [ LANG.EN ], 
             _COUNTRY_LANGS), SDK_SETTINGS = {
+                NAMESPACE: "data-namespace",
                 CLIENT_TOKEN: "data-client-token",
                 PARTNER_ATTRIBUTION_ID: "data-partner-attribution-id",
                 STAGE_HOST: "data-stage-host",
