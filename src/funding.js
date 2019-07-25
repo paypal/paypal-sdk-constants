@@ -1,21 +1,23 @@
 /* @flow */
 
 export const FUNDING = {
-    PAYPAL:      ('paypal' : 'paypal'),
-    VENMO:       ('venmo' : 'venmo'),
-    ITAU:        ('itau' : 'itau'),
-    CREDIT:      ('credit' : 'credit'),
-    CARD:        ('card' : 'card'),
-    IDEAL:       ('ideal' : 'ideal'),
-    SEPA:        ('sepa' : 'sepa'),
-    BANCONTACT:  ('bancontact' : 'bancontact'),
-    GIROPAY:     ('giropay' : 'giropay'),
-    SOFORT:      ('sofort' : 'sofort'),
-    EPS:         ('eps' : 'eps'),
-    MYBANK:      ('mybank' : 'mybank'),
-    P24:         ('p24' : 'p24'),
-    ZIMPLER:     ('zimpler' : 'zimpler'),
-    WECHATPAY:   ('wechatpay' : 'wechatpay')
+    PAYPAL:         ('paypal' : 'paypal'),
+    VENMO:          ('venmo' : 'venmo'),
+    ITAU:           ('itau' : 'itau'),
+    CREDIT:         ('credit' : 'credit'),
+    CARD:           ('card' : 'card'),
+    IDEAL:          ('ideal' : 'ideal'),
+    SEPA:           ('sepa' : 'sepa'),
+    BANCONTACT:     ('bancontact' : 'bancontact'),
+    GIROPAY:        ('giropay' : 'giropay'),
+    SOFORT:         ('sofort' : 'sofort'),
+    EPS:            ('eps' : 'eps'),
+    MYBANK:         ('mybank' : 'mybank'),
+    P24:            ('p24' : 'p24'),
+    VERKKOPANKKI:   ('verkkopankki' : 'verkkopankki'),
+    PAYU:           ('payu' : 'payu'),
+    ZIMPLER:        ('zimpler' : 'zimpler'),
+    WECHATPAY:      ('wechatpay' : 'wechatpay')
 };
 
 export const CARD = {
