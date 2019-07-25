@@ -529,6 +529,8 @@
                 EPS: "eps",
                 MYBANK: "mybank",
                 P24: "p24",
+                VERKKOPANKKI: "verkkopankki",
+                PAYU: "payu",
                 ZIMPLER: "zimpler",
                 WECHATPAY: "wechatpay"
             }, CARD = {
