@@ -19,8 +19,9 @@ export const SDK_QUERY_KEYS = {
     DEBUG:     ('debug' : 'debug'),
     CACHEBUST: ('cachebust' : 'cachebust'),
 
-    CLIENT_ID:   ('client-id' : 'client-id'),
-    MERCHANT_ID: ('merchant-id' : 'merchant-id'),
+    CLIENT_ID:           ('client-id' : 'client-id'),
+    MERCHANT_ID:         ('merchant-id' : 'merchant-id'),
+    MERCHANT_EMAIL_HASH: ('merchant-email-hash' : 'merchant-email-hash'),
 
     LOCALE: ('locale' : 'locale'),
 
