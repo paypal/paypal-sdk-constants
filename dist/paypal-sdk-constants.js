@@ -492,6 +492,7 @@
                 CACHEBUST: "cachebust",
                 CLIENT_ID: "client-id",
                 MERCHANT_ID: "merchant-id",
+                MERCHANT_EMAIL_HASH: "merchant-email-hash",
                 LOCALE: "locale",
                 CURRENCY: "currency",
                 INTENT: "intent",
