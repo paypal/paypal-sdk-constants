@@ -14,7 +14,12 @@ export var FUNDING = {
     P24: 'p24',
     VERKKOPANKKI: 'verkkopankki',
     PAYU: 'payu',
+    BLIK: 'blik',
+    TRUSTLY: 'trustly',
     ZIMPLER: 'zimpler',
+    MAXIMA: 'maxima',
+    OXXO: 'oxxo',
+    BOLETO: 'boleto',
     WECHATPAY: 'wechatpay'
 };
 
