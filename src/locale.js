@@ -475,7 +475,7 @@ export const COUNTRY_LANGS : CountryMap = {
     BT: [ LANG.EN ],
     BW: [ LANG.EN, LANG.FR, LANG.ES, LANG.ZH ],
     BY: [ LANG.EN ],
-    BZ: [ LANG.EN, LANG.ES, LANG.FR, LANG.ZH ],
+    BZ: [ LANG.ES, LANG.EN, LANG.FR, LANG.ZH ],
     CA: [ LANG.EN, LANG.FR ],
     CD: [ LANG.FR, LANG.EN, LANG.ES, LANG.ZH ],
     CG: [ LANG.EN, LANG.FR, LANG.ES, LANG.ZH ],
