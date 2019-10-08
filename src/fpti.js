@@ -38,7 +38,10 @@ export const FPTI_KEY = {
     USER_ACTION:            ('user_action' : 'user_action'),
     CONTEXT_CORRID:         ('context_correlation_id' : 'context_correlation_id'),
     SDK_CACHE:              ('sdk_cache' : 'sdk_cache'),
-    SDK_LOAD_TIME:          ('sdk_load_time' : 'sdk_load_time')
+    SDK_LOAD_TIME:          ('sdk_load_time' : 'sdk_load_time'),
+    IS_VAULT:               ('is_vault' : 'is_vault'),
+    DISABLE_FUNDING:        ('disable_funding' : 'disable_funding'),
+    DISABLE_CARD:           ('disable_card' : 'disable_card')
 };
 
 export const FPTI_USER_ACTION = {
