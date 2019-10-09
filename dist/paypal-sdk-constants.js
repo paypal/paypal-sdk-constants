@@ -484,7 +484,8 @@
                 STAGE_HOST: "data-stage-host",
                 API_STAGE_HOST: "data-api-stage-host",
                 CSP_NONCE: "data-csp-nonce",
-                ENABLE_3DS: "data-enable-3ds"
+                ENABLE_3DS: "data-enable-3ds",
+                SDK_INTEGRATION_SOURCE: "data-sdk-integration-source"
             }, SDK_QUERY_KEYS = {
                 COMPONENTS: "components",
                 ENV: "env",
@@ -574,7 +575,8 @@
                 IS_VAULT: "is_vault",
                 DISABLE_FUNDING: "disable_funding",
                 DISABLE_CARD: "disable_card",
-                RESPONSE_DURATION: "response_duration"
+                RESPONSE_DURATION: "response_duration",
+                SDK_INTEGRATION_SOURCE: "sdk_integration_source"
             }, FPTI_USER_ACTION = {
                 COMMIT: "commit",
                 CONTINUE: "continue"

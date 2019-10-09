@@ -40,7 +40,8 @@ export var FPTI_KEY = {
     IS_VAULT: 'is_vault',
     DISABLE_FUNDING: 'disable_funding',
     DISABLE_CARD: 'disable_card',
-    RESPONSE_DURATION: 'response_duration'
+    RESPONSE_DURATION: 'response_duration',
+    SDK_INTEGRATION_SOURCE: 'sdk_integration_source'
 };
 
 export var FPTI_USER_ACTION = {
