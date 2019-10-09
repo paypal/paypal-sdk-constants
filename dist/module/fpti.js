@@ -39,7 +39,8 @@ export var FPTI_KEY = {
     SDK_LOAD_TIME: 'sdk_load_time',
     IS_VAULT: 'is_vault',
     DISABLE_FUNDING: 'disable_funding',
-    DISABLE_CARD: 'disable_card'
+    DISABLE_CARD: 'disable_card',
+    RESPONSE_DURATION: 'response_duration'
 };
 
 export var FPTI_USER_ACTION = {
