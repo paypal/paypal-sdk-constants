@@ -576,7 +576,8 @@
                 DISABLE_FUNDING: "disable_funding",
                 DISABLE_CARD: "disable_card",
                 RESPONSE_DURATION: "response_duration",
-                SDK_INTEGRATION_SOURCE: "sdk_integration_source"
+                SDK_INTEGRATION_SOURCE: "sdk_integration_source",
+                PAYMENT_FLOW: "payment_flow"
             }, FPTI_USER_ACTION = {
                 COMMIT: "commit",
                 CONTINUE: "continue"
