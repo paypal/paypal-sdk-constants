@@ -43,7 +43,8 @@ export const FPTI_KEY = {
     DISABLE_FUNDING:        ('disable_funding' : 'disable_funding'),
     DISABLE_CARD:           ('disable_card' : 'disable_card'),
     RESPONSE_DURATION:      ('response_duration' : 'response_duration'),
-    SDK_INTEGRATION_SOURCE: ('sdk_integration_source' : 'sdk_integration_source')
+    SDK_INTEGRATION_SOURCE: ('sdk_integration_source' : 'sdk_integration_source'),
+    PAYMENT_FLOW:           ('payment_flow' : 'payment_flow')
 };
 
 export const FPTI_USER_ACTION = {
