@@ -46,7 +46,9 @@ export const SDK_QUERY_KEYS = {
     ORDER_CURRENCY: ('order-currency' : 'order-currency'),
     ORDER_INTENT:   ('order-intent' : 'order-intent'),
     ORDER_COMMIT:   ('order-commit' : 'order-commit'),
-    ORDER_VAULT:    ('order-vault' : 'order-vault')
+    ORDER_VAULT:    ('order-vault' : 'order-vault'),
+
+    STAGE_HOST: ('stage-host' : 'stage-host')
 };
 
 export const COMPONENTS = {
