@@ -510,7 +510,9 @@
                 ORDER_INTENT: "order-intent",
                 ORDER_COMMIT: "order-commit",
                 ORDER_VAULT: "order-vault",
-                STAGE_HOST: "stage-host"
+                STAGE_HOST: "stage-host",
+                USER_ACCESS_TOKEN: "user-access-token",
+                USER_ACCESS_CODE: "user-access-code"
             }, COMPONENTS = {
                 BUTTONS: "buttons",
                 HOSTED_FIELDS: "hosted-fields"

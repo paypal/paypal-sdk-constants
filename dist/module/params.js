@@ -46,7 +46,10 @@ export var SDK_QUERY_KEYS = {
     ORDER_COMMIT: 'order-commit',
     ORDER_VAULT: 'order-vault',
 
-    STAGE_HOST: 'stage-host'
+    STAGE_HOST: 'stage-host',
+
+    USER_ACCESS_TOKEN: 'user-access-token',
+    USER_ACCESS_CODE: 'user-access-code'
 };
 
 export var COMPONENTS = {
