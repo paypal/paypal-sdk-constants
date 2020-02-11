@@ -11,8 +11,9 @@ export const SDK_SETTINGS = {
     CSP_NONCE:              ('data-csp-nonce' : 'data-csp-nonce'),
     ENABLE_3DS:             ('data-enable-3ds' : 'data-enable-3ds'),
     SDK_INTEGRATION_SOURCE: ('data-sdk-integration-source' : 'data-sdk-integration-source'),
-    USER_ACCESS_TOKEN:      ('user-access-token' : 'user-access-token'),
-    USER_ACCESS_CODE:       ('user-access-code' : 'user-access-code')
+    USER_ACCESS_TOKEN:      ('data-user-access-token' : 'data-user-access-token'),
+    USER_ACCESS_CODE:       ('data-user-access-code' : 'data-user-access-code'),
+    CLIENT_ACCESS_TOKEN:    ('data-client-access-token' : 'data-client-access-token')
 };
 
 export const SDK_QUERY_KEYS = {
