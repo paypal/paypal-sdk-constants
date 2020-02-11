@@ -5,6 +5,7 @@ export const SDK_PATH = '/sdk/js';
 export const SDK_SETTINGS = {
     NAMESPACE:              ('data-namespace' : 'data-namespace'),
     CLIENT_TOKEN:           ('data-client-token' : 'data-client-token'),
+    MERCHANT_ID:            ('data-merchant-id' : 'data-merchant-id'),
     PARTNER_ATTRIBUTION_ID: ('data-partner-attribution-id' : 'data-partner-attribution-id'),
     STAGE_HOST:             ('data-stage-host' : 'data-stage-host'),
     API_STAGE_HOST:         ('data-api-stage-host' : 'data-api-stage-host'),
