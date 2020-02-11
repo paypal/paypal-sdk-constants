@@ -8,7 +8,10 @@ export var SDK_SETTINGS = {
     API_STAGE_HOST: 'data-api-stage-host',
     CSP_NONCE: 'data-csp-nonce',
     ENABLE_3DS: 'data-enable-3ds',
-    SDK_INTEGRATION_SOURCE: 'data-sdk-integration-source'
+    SDK_INTEGRATION_SOURCE: 'data-sdk-integration-source',
+    USER_ACCESS_TOKEN: 'data-user-access-token',
+    USER_ACCESS_CODE: 'data-user-access-code',
+    CLIENT_ACCESS_TOKEN: 'data-client-access-token'
 };
 
 export var SDK_QUERY_KEYS = {
@@ -46,10 +49,7 @@ export var SDK_QUERY_KEYS = {
     ORDER_COMMIT: 'order-commit',
     ORDER_VAULT: 'order-vault',
 
-    STAGE_HOST: 'stage-host',
-
-    USER_ACCESS_TOKEN: 'user-access-token',
-    USER_ACCESS_CODE: 'user-access-code'
+    STAGE_HOST: 'stage-host'
 };
 
 export var COMPONENTS = {
