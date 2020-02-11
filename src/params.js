@@ -10,7 +10,9 @@ export const SDK_SETTINGS = {
     API_STAGE_HOST:         ('data-api-stage-host' : 'data-api-stage-host'),
     CSP_NONCE:              ('data-csp-nonce' : 'data-csp-nonce'),
     ENABLE_3DS:             ('data-enable-3ds' : 'data-enable-3ds'),
-    SDK_INTEGRATION_SOURCE: ('data-sdk-integration-source' : 'data-sdk-integration-source')
+    SDK_INTEGRATION_SOURCE: ('data-sdk-integration-source' : 'data-sdk-integration-source'),
+    USER_ACCESS_TOKEN:      ('user-access-token' : 'user-access-token'),
+    USER_ACCESS_CODE:       ('user-access-code' : 'user-access-code')
 };
 
 export const SDK_QUERY_KEYS = {
@@ -48,10 +50,7 @@ export const SDK_QUERY_KEYS = {
     ORDER_COMMIT:   ('order-commit' : 'order-commit'),
     ORDER_VAULT:    ('order-vault' : 'order-vault'),
 
-    STAGE_HOST: ('stage-host' : 'stage-host'),
-
-    USER_ACCESS_TOKEN: ('user-access-token' : 'user-access-token'),
-    USER_ACCESS_CODE:  ('user-access-code' : 'user-access-code')
+    STAGE_HOST: ('stage-host' : 'stage-host')
 };
 
 export const COMPONENTS = {
