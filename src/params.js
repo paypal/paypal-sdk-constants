@@ -12,7 +12,7 @@ export const SDK_SETTINGS = {
     ENABLE_3DS:             ('data-enable-3ds' : 'data-enable-3ds'),
     SDK_INTEGRATION_SOURCE: ('data-sdk-integration-source' : 'data-sdk-integration-source'),
     USER_ACCESS_TOKEN:      ('data-user-access-token' : 'data-user-access-token'),
-    USER_ACCESS_CODE:       ('data-user-access-code' : 'data-user-access-code'),
+    USER_AUTH_CODE:         ('data-user-auth-code' : 'data-user-auth-code'),
     CLIENT_ACCESS_TOKEN:    ('data-client-access-token' : 'data-client-access-token')
 };
 
