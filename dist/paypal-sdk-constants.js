@@ -702,6 +702,9 @@
             __webpack_require__.d(__webpack_exports__, "PROTOCOL", function() {
                 return PROTOCOL;
             });
+            __webpack_require__.d(__webpack_exports__, "MERCHANT_ID_MAX", function() {
+                return 10;
+            });
             __webpack_require__.d(__webpack_exports__, "ENV", function() {
                 return ENV;
             });

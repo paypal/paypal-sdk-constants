@@ -81,3 +81,5 @@ export var PROTOCOL = {
     HTTP: 'http',
     HTTPS: 'https'
 };
+
+export var MERCHANT_ID_MAX = 10;
