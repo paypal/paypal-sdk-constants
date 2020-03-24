@@ -83,3 +83,5 @@ export const PROTOCOL = {
     HTTP:  ('http' : 'http'),
     HTTPS: ('https' : 'https')
 };
+
+export const MERCHANT_ID_MAX = 10;
