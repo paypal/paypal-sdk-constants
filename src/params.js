@@ -11,7 +11,10 @@ export const SDK_SETTINGS = {
     API_STAGE_HOST:         ('data-api-stage-host' : 'data-api-stage-host'),
     CSP_NONCE:              ('data-csp-nonce' : 'data-csp-nonce'),
     ENABLE_3DS:             ('data-enable-3ds' : 'data-enable-3ds'),
-    SDK_INTEGRATION_SOURCE: ('data-sdk-integration-source' : 'data-sdk-integration-source')
+    SDK_INTEGRATION_SOURCE: ('data-sdk-integration-source' : 'data-sdk-integration-source'),
+    USER_ID_TOKEN:          ('data-user-id-token' : 'data-user-id-token'),
+    AMOUNT:                 ('data-amount' : 'data-amount'),
+    CLIENT_METADATA_ID:     ('data-client-metadata-id' : 'data-client-metadata-id')
 };
 
 export const SDK_QUERY_KEYS = {
