@@ -11,10 +11,7 @@ export const SDK_SETTINGS = {
     API_STAGE_HOST:         ('data-api-stage-host' : 'data-api-stage-host'),
     CSP_NONCE:              ('data-csp-nonce' : 'data-csp-nonce'),
     ENABLE_3DS:             ('data-enable-3ds' : 'data-enable-3ds'),
-    SDK_INTEGRATION_SOURCE: ('data-sdk-integration-source' : 'data-sdk-integration-source'),
-    USER_ACCESS_TOKEN:      ('data-user-access-token' : 'data-user-access-token'),
-    USER_AUTH_CODE:         ('data-user-auth-code' : 'data-user-auth-code'),
-    CLIENT_ACCESS_TOKEN:    ('data-client-access-token' : 'data-client-access-token')
+    SDK_INTEGRATION_SOURCE: ('data-sdk-integration-source' : 'data-sdk-integration-source')
 };
 
 export const SDK_QUERY_KEYS = {
@@ -24,9 +21,8 @@ export const SDK_QUERY_KEYS = {
     DEBUG:     ('debug' : 'debug'),
     CACHEBUST: ('cachebust' : 'cachebust'),
 
-    CLIENT_ID:           ('client-id' : 'client-id'),
-    MERCHANT_ID:         ('merchant-id' : 'merchant-id'),
-    MERCHANT_EMAIL_HASH: ('merchant-email-hash' : 'merchant-email-hash'),
+    CLIENT_ID:   ('client-id' : 'client-id'),
+    MERCHANT_ID: ('merchant-id' : 'merchant-id'),
 
     LOCALE: ('locale' : 'locale'),
 
@@ -40,31 +36,12 @@ export const SDK_QUERY_KEYS = {
     DISABLE_FUNDING: ('disable-funding' : 'disable-funding'),
     DISABLE_CARD:    ('disable-card' : 'disable-card'),
 
-    LOCALE_COUNTRY: ('locale-country' : 'locale-country'),
-    LOCALE_LANG:    ('locale-lang' : 'locale-lang'),
-
-    FRAMEWORK: ('framework' : 'framework'),
-
-    INTEGRATION_DATE: ('integration-date' : 'integration-date'),
-
-    ORDER_CURRENCY: ('order-currency' : 'order-currency'),
-    ORDER_INTENT:   ('order-intent' : 'order-intent'),
-    ORDER_COMMIT:   ('order-commit' : 'order-commit'),
-    ORDER_VAULT:    ('order-vault' : 'order-vault'),
-
-    STAGE_HOST: ('stage-host' : 'stage-host')
+    INTEGRATION_DATE: ('integration-date' : 'integration-date')
 };
 
 export const COMPONENTS = {
     BUTTONS:       ('buttons' : 'buttons'),
     HOSTED_FIELDS: ('hosted-fields' : 'hosted-fields')
-};
-
-export const FRAMEWORK = {
-    ANGULARJS: ('angularjs' : 'angularjs'),
-    ANGULAR:   ('angular' : 'angular'),
-    REACT:     ('react' : 'react'),
-    VUE:       ('vue' : 'vue')
 };
 
 export const DEBUG = {
