@@ -10,9 +10,9 @@ export var SDK_SETTINGS = {
     CSP_NONCE: 'data-csp-nonce',
     ENABLE_3DS: 'data-enable-3ds',
     SDK_INTEGRATION_SOURCE: 'data-sdk-integration-source',
-    USER_ACCESS_TOKEN: 'data-user-access-token',
-    USER_AUTH_CODE: 'data-user-auth-code',
-    CLIENT_ACCESS_TOKEN: 'data-client-access-token'
+    USER_ID_TOKEN: 'data-user-id-token',
+    AMOUNT: 'data-amount',
+    CLIENT_METADATA_ID: 'data-client-metadata-id'
 };
 
 export var SDK_QUERY_KEYS = {
@@ -24,7 +24,6 @@ export var SDK_QUERY_KEYS = {
 
     CLIENT_ID: 'client-id',
     MERCHANT_ID: 'merchant-id',
-    MERCHANT_EMAIL_HASH: 'merchant-email-hash',
 
     LOCALE: 'locale',
 
@@ -38,31 +37,12 @@ export var SDK_QUERY_KEYS = {
     DISABLE_FUNDING: 'disable-funding',
     DISABLE_CARD: 'disable-card',
 
-    LOCALE_COUNTRY: 'locale-country',
-    LOCALE_LANG: 'locale-lang',
-
-    FRAMEWORK: 'framework',
-
-    INTEGRATION_DATE: 'integration-date',
-
-    ORDER_CURRENCY: 'order-currency',
-    ORDER_INTENT: 'order-intent',
-    ORDER_COMMIT: 'order-commit',
-    ORDER_VAULT: 'order-vault',
-
-    STAGE_HOST: 'stage-host'
+    INTEGRATION_DATE: 'integration-date'
 };
 
 export var COMPONENTS = {
     BUTTONS: 'buttons',
     HOSTED_FIELDS: 'hosted-fields'
-};
-
-export var FRAMEWORK = {
-    ANGULARJS: 'angularjs',
-    ANGULAR: 'angular',
-    REACT: 'react',
-    VUE: 'vue'
 };
 
 export var DEBUG = {
