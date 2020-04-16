@@ -35,3 +35,10 @@ export const CARD = {
     JCB:         ('jcb' : 'jcb'),
     CUP:         ('cup' : 'cup')
 };
+
+export const WALLET_INSTRUMENT = {
+    BALANCE: ('balance' : 'balance'),
+    CARD:    ('card' : 'card'),
+    BANK:    ('bank' : 'bank'),
+    CREDIT:  ('credit' : 'credit')
+};
