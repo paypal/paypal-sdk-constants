@@ -33,3 +33,10 @@ export var CARD = {
     JCB: 'jcb',
     CUP: 'cup'
 };
+
+export var WALLET_INSTRUMENT = {
+    BALANCE: 'balance',
+    CARD: 'card',
+    BANK: 'bank',
+    CREDIT: 'credit'
+};

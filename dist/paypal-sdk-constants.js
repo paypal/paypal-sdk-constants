@@ -727,6 +727,11 @@
                 ELO: "elo",
                 JCB: "jcb",
                 CUP: "cup"
+            }, WALLET_INSTRUMENT = {
+                BALANCE: "balance",
+                CARD: "card",
+                BANK: "bank",
+                CREDIT: "credit"
             }, DEFAULT_COUNTRY = COUNTRY.US, DEFAULT_CURRENCY = CURRENCY.USD, DEFAULT_INTENT = INTENT.CAPTURE, DEFAULT_COMMIT = COMMIT.TRUE, DEFAULT_SALE_COMMIT = COMMIT.TRUE, DEFAULT_NONSALE_COMMIT = COMMIT.TRUE, DEFAULT_VAULT = VAULT.FALSE, DEFAULT_COMPONENTS = COMPONENTS.BUTTONS, DEFAULT_DEBUG = DEBUG.FALSE;
             __webpack_require__.d(__webpack_exports__, "COUNTRY", function() {
                 return COUNTRY;
@@ -802,6 +807,9 @@
             });
             __webpack_require__.d(__webpack_exports__, "CARD", function() {
                 return CARD;
+            });
+            __webpack_require__.d(__webpack_exports__, "WALLET_INSTRUMENT", function() {
+                return WALLET_INSTRUMENT;
             });
             __webpack_require__.d(__webpack_exports__, "DEFAULT_COUNTRY", function() {
                 return DEFAULT_COUNTRY;
