@@ -227,11 +227,13 @@ export const LANG = {
     NO: ('no' : 'no'),
     PL: ('pl' : 'pl'),
     PT: ('pt' : 'pt'),
+    RO: ('ro' : 'ro'),
     RU: ('ru' : 'ru'),
     SK: ('sk' : 'sk'),
     SV: ('sv' : 'sv'),
     TH: ('th' : 'th'),
     TR: ('tr' : 'tr'),
+    VI: ('vi' : 'vi'),
     ZH: ('zh' : 'zh')
 };
 
