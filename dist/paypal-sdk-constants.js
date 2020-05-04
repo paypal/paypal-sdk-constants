@@ -505,7 +505,8 @@
                 BUYER_COUNTRY: "buyer-country",
                 DISABLE_FUNDING: "disable-funding",
                 DISABLE_CARD: "disable-card",
-                INTEGRATION_DATE: "integration-date"
+                INTEGRATION_DATE: "integration-date",
+                STAGE_HOST: "stage-host"
             }, COMPONENTS = {
                 BUTTONS: "buttons",
                 HOSTED_FIELDS: "hosted-fields"
