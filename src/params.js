@@ -39,7 +39,8 @@ export const SDK_QUERY_KEYS = {
     DISABLE_FUNDING: ('disable-funding' : 'disable-funding'),
     DISABLE_CARD:    ('disable-card' : 'disable-card'),
 
-    INTEGRATION_DATE: ('integration-date' : 'integration-date')
+    INTEGRATION_DATE: ('integration-date' : 'integration-date'),
+    STAGE_HOST:       ('stage-host' : 'stage-host')
 };
 
 export const COMPONENTS = {
