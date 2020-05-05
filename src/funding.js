@@ -22,7 +22,8 @@ export const FUNDING = {
     MAXIMA:         ('maxima' : 'maxima'),
     OXXO:           ('oxxo' : 'oxxo'),
     BOLETO:         ('boleto' : 'boleto'),
-    WECHATPAY:      ('wechatpay' : 'wechatpay')
+    WECHATPAY:      ('wechatpay' : 'wechatpay'),
+    MERCADOPAGO:    ('mercadopago' : 'mercadopago')
 };
 
 export const CARD = {
