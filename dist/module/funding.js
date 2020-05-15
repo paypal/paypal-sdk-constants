@@ -20,7 +20,8 @@ export var FUNDING = {
     MAXIMA: 'maxima',
     OXXO: 'oxxo',
     BOLETO: 'boleto',
-    WECHATPAY: 'wechatpay'
+    WECHATPAY: 'wechatpay',
+    MERCADOPAGO: 'mercadopago'
 };
 
 export var CARD = {

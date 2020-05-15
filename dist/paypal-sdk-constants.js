@@ -718,7 +718,8 @@
                 MAXIMA: "maxima",
                 OXXO: "oxxo",
                 BOLETO: "boleto",
-                WECHATPAY: "wechatpay"
+                WECHATPAY: "wechatpay",
+                MERCADOPAGO: "mercadopago"
             }, CARD = {
                 VISA: "visa",
                 MASTERCARD: "mastercard",
