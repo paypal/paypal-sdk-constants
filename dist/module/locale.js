@@ -227,11 +227,13 @@ export var LANG = {
     NO: 'no',
     PL: 'pl',
     PT: 'pt',
+    RO: 'ro',
     RU: 'ru',
     SK: 'sk',
     SV: 'sv',
     TH: 'th',
     TR: 'tr',
+    VI: 'vi',
     ZH: 'zh'
 };
 
