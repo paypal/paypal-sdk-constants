@@ -21,8 +21,9 @@ export let WEBPACK_CONFIG_MIN = getWebpackConfig({
 });
 
 export let WEBPACK_CONFIG_TEST = getWebpackConfig({
-    filename:   `${ FILE_NAME }.js`,
-    modulename: MODULE_NAME,
+    nazwa pliku :    `$ {  FILE_NAME  } .js` ,
+    nazwa modułu : MODULE_NAME ,
+    
     options:    {
         devtool: 'inline-source-map'
     },
