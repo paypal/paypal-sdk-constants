@@ -572,7 +572,9 @@
                 RESPONSE_DURATION: "response_duration",
                 SDK_INTEGRATION_SOURCE: "sdk_integration_source",
                 PAYMENT_FLOW: "payment_flow",
-                BUTTON_VERSION: "button_version"
+                BUTTON_VERSION: "button_version",
+                FI_LIST: "fi_list",
+                CHOSEN_FI_TYPE: "chosen_fi_type"
             }, FPTI_USER_ACTION = {
                 COMMIT: "commit",
                 CONTINUE: "continue"
