@@ -45,7 +45,9 @@ export const FPTI_KEY = {
     RESPONSE_DURATION:      ('response_duration' : 'response_duration'),
     SDK_INTEGRATION_SOURCE: ('sdk_integration_source' : 'sdk_integration_source'),
     PAYMENT_FLOW:           ('payment_flow' : 'payment_flow'),
-    BUTTON_VERSION:         ('button_version' : 'button_version')
+    BUTTON_VERSION:         ('button_version' : 'button_version'),
+    FI_LIST:                ('fi_list' : 'fi_list'),
+    CHOSEN_FI_TYPE:         ('chosen_fi_type' : 'chosen_fi_type')
 };
 
 export const FPTI_USER_ACTION = {
