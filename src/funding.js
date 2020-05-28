@@ -5,6 +5,7 @@ export const FUNDING = {
     VENMO:          ('venmo' : 'venmo'),
     ITAU:           ('itau' : 'itau'),
     CREDIT:         ('credit' : 'credit'),
+    FLEX:           ('flex' : 'flex'),
     CARD:           ('card' : 'card'),
     IDEAL:          ('ideal' : 'ideal'),
     SEPA:           ('sepa' : 'sepa'),
