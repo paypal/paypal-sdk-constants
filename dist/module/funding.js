@@ -3,7 +3,7 @@ export var FUNDING = {
     VENMO: 'venmo',
     ITAU: 'itau',
     CREDIT: 'credit',
-    FLEX: 'flex',
+    PAYLATER: 'paylater',
     CARD: 'card',
     IDEAL: 'ideal',
     SEPA: 'sepa',
