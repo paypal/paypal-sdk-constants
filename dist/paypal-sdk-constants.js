@@ -725,6 +725,8 @@
                 BOLETO: "boleto",
                 WECHATPAY: "wechatpay",
                 MERCADOPAGO: "mercadopago"
+            }, FUNDING_BRAND_LABEL = {
+                PAYPAL: "PayPal"
             }, CARD = {
                 VISA: "visa",
                 MASTERCARD: "mastercard",
@@ -811,6 +813,9 @@
             });
             __webpack_require__.d(__webpack_exports__, "FUNDING", function() {
                 return FUNDING;
+            });
+            __webpack_require__.d(__webpack_exports__, "FUNDING_BRAND_LABEL", function() {
+                return FUNDING_BRAND_LABEL;
             });
             __webpack_require__.d(__webpack_exports__, "CARD", function() {
                 return CARD;

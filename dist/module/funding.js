@@ -25,6 +25,10 @@ export var FUNDING = {
     MERCADOPAGO: 'mercadopago'
 };
 
+export var FUNDING_BRAND_LABEL = {
+    PAYPAL: 'PayPal'
+};
+
 export var CARD = {
     VISA: 'visa',
     MASTERCARD: 'mastercard',
