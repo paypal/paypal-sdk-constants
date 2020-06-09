@@ -28,7 +28,8 @@ export const FUNDING = {
 };
 
 export const FUNDING_BRAND_LABEL = {
-    PAYPAL:         ('PayPal' : 'PayPal')
+    PAYPAL:         ('PayPal' : 'PayPal'),
+    CREDIT:         ('PayPal Credit' : 'PayPal Credit')
 };
 
 export const CARD = {
