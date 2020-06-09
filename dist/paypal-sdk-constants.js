@@ -726,7 +726,8 @@
                 WECHATPAY: "wechatpay",
                 MERCADOPAGO: "mercadopago"
             }, FUNDING_BRAND_LABEL = {
-                PAYPAL: "PayPal"
+                PAYPAL: "PayPal",
+                CREDIT: "PayPal Credit"
             }, CARD = {
                 VISA: "visa",
                 MASTERCARD: "mastercard",

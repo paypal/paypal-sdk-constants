@@ -26,7 +26,8 @@ export var FUNDING = {
 };
 
 export var FUNDING_BRAND_LABEL = {
-    PAYPAL: 'PayPal'
+    PAYPAL: 'PayPal',
+    CREDIT: 'PayPal Credit'
 };
 
 export var CARD = {
