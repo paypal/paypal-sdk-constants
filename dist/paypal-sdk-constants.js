@@ -505,6 +505,7 @@
                 COMMIT: "commit",
                 VAULT: "vault",
                 BUYER_COUNTRY: "buyer-country",
+                ENABLE_FUNDING: "enable-funding",
                 DISABLE_FUNDING: "disable-funding",
                 DISABLE_CARD: "disable-card",
                 INTEGRATION_DATE: "integration-date",

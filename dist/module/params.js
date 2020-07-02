@@ -34,6 +34,7 @@ export var SDK_QUERY_KEYS = {
 
     BUYER_COUNTRY: 'buyer-country',
 
+    ENABLE_FUNDING: 'enable-funding',
     DISABLE_FUNDING: 'disable-funding',
     DISABLE_CARD: 'disable-card',
 
