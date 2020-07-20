@@ -47,9 +47,9 @@
   ],
   "readmeFilename": "README.md",
   "devDependencies": {
-    "flow-bin": "^0.100.0",
-    "grumbler-scripts": "^2.0.41",
-    "mocha": "^5.0.4"
+    "flow-bin": "0.100.0",
+    "grumbler-scripts": "2.0.77",
+    "mocha": "5.2.0"
   },
   "dependencies": {
     "cross-domain-utils": "^2.0.10",
