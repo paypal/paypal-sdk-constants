@@ -6,12 +6,12 @@ import { getWebpackConfig } from 'grumbler-scripts/config/webpack.config';
 const FILE_NAME = 'paypal-sdk-constants';
 const MODULE_NAME = 'ppsdkconstants';
 
-export let WEBPACK_CONFIG = getWebpackConfig({
+export const WEBPACK_CONFIG = getWebpackConfig({
     filename:   `${ FILE_NAME }.js`,
     modulename: MODULE_NAME
 });
 
-export let WEBPACK_CONFIG_MIN = getWebpackConfig({
+export const WEBPACK_CONFIG_MIN = getWebpackConfig({
     filename:   `${ FILE_NAME }.min.js`,
     modulename: MODULE_NAME,
     minify:     true,
@@ -20,7 +20,7 @@ export let WEBPACK_CONFIG_MIN = getWebpackConfig({
     }
 });
 
-export let WEBPACK_CONFIG_TEST = getWebpackConfig({
+export const WEBPACK_CONFIG_TEST = getWebpackConfig({
     filename:   `${ FILE_NAME }.js`,
     modulename: MODULE_NAME,
     options:    {
@@ -31,4 +31,4 @@ export let WEBPACK_CONFIG_TEST = getWebpackConfig({
     }
 });
 
-export default [ WEBPACK_CONFIG, WEBPACK_CONFIG_MIN ];
+export default [ WEBPACK_CONFIG, WEBPACK_CONFIG_MIN ]; // eslint-disable-line import/no-default-export
