@@ -237,7 +237,7 @@ export const LANG = {
     ZH: ('zh' : 'zh')
 };
 
-export type CountryLangs = {
+export type CountryLangs = {|
     AD : 'en' | 'fr' | 'es' | 'zh',
     AE : 'en' | 'fr' | 'es' | 'zh' | 'ar',
     AG : 'en' | 'fr' | 'es' | 'zh',
@@ -441,10 +441,10 @@ export type CountryLangs = {
     ZA : 'en' | 'fr' | 'es' | 'zh',
     ZM : 'en' | 'fr' | 'es' | 'zh',
     ZW : 'en'
-};
+|};
 
 type CountryMap = {
-    [ $Values<typeof COUNTRY> ] : Array<$Values<typeof LANG>>
+    [ $Values<typeof COUNTRY> ] : $ReadOnlyArray<$Values<typeof LANG>>
 };
 
 export const COUNTRY_LANGS : CountryMap = {
@@ -653,7 +653,7 @@ export const COUNTRY_LANGS : CountryMap = {
     ZW: [ LANG.EN ]
 };
 
-export type LocaleType = {
+export type LocaleType = {|
     country : $Values<typeof COUNTRY>,
     lang : $Values<typeof LANG>
-};
+|};
