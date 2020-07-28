@@ -67,4 +67,11 @@ export const PROTOCOL = {
     HTTPS: ('https' : 'https')
 };
 
+export const PAGE_TYPES = {
+    HOME:       ('home' : 'home'),
+    PRODUCT:    ('product' : 'product'),
+    CART:       ('cart' : 'cart'),
+    CHECKOUT:   ('checkout' : 'checkout')
+};
+
 export const MERCHANT_ID_MAX = 10;
