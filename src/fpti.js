@@ -32,6 +32,7 @@ export const FPTI_KEY = {
     BUYER_COUNTRY:          ('buyer_cntry' : 'buyer_cntry'),
     INTEGRATION_IDENTIFIER: ('integration_identifier' : 'integration_identifier'),
     PARTNER_ATTRIBUTION_ID: ('bn_code' : 'bn_code'),
+    PAGE_TYPE:              ('pp_placement' : 'pp_placement'),
     SDK_NAME:               ('sdk_name' : 'sdk_name'),
     SDK_VERSION:            ('sdk_version' : 'sdk_version'),
     USER_AGENT:             ('user_agent' : 'user_agent'),
