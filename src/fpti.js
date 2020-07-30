@@ -48,7 +48,8 @@ export const FPTI_KEY = {
     PAYMENT_FLOW:           ('payment_flow' : 'payment_flow'),
     BUTTON_VERSION:         ('button_version' : 'button_version'),
     FI_LIST:                ('fi_list' : 'fi_list'),
-    CHOSEN_FI_TYPE:         ('chosen_fi_type' : 'chosen_fi_type')
+    CHOSEN_FI_TYPE:         ('chosen_fi_type' : 'chosen_fi_type'),
+    SELECTED_FI:            ('merchant_selected_funding_source' : 'merchant_selected_funding_source')
 };
 
 export const FPTI_USER_ACTION = {
