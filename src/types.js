@@ -49,7 +49,7 @@ export type CardEligibility = {|
 
 export type FundingEligibilityType = {|
     paypal? : PayPalEligibility,
-    card : CardEligibility,
+    card? : CardEligibility,
     venmo? : BasicEligibility,
     credit? : BasicEligibility,
     paylater? : BasicEligibility,
