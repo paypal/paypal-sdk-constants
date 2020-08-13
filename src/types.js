@@ -29,6 +29,7 @@ export type FundingProductEligibility = {|
 
 export type PayLaterEligibility = {|
     eligible : boolean,
+    recommended? : ?boolean,
     products? : {|
         payIn4 : FundingProductEligibility,
         flex : FundingProductEligibility
