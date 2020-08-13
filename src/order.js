@@ -3,7 +3,8 @@
 export const INTENT = {
     CAPTURE:   ('capture' : 'capture'),
     AUTHORIZE: ('authorize' : 'authorize'),
-    ORDER:     ('order' : 'order')
+    ORDER:     ('order' : 'order'),
+    TOKENIZE:  ('tokenize' : 'tokenize')
 };
 
 export const COMMIT = {
