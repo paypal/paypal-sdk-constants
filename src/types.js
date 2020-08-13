@@ -27,7 +27,7 @@ export type FundingProductEligibility = {|
     eligible? : boolean
 |};
 
-export type CreditEligibility = {|
+export type PayLaterEligibility = {|
     eligible : boolean,
     products? : {|
         payIn4 : FundingProductEligibility,
@@ -64,7 +64,7 @@ export type FundingEligibilityType = {|
     card? : CardEligibility,
     venmo? : BasicEligibility,
     credit? : BasicEligibility,
-    paylater? : BasicEligibility,
+    paylater? : PayLaterEligibility,
     sepa? : BasicEligibility,
     bancontact? : BasicEligibility,
     eps? : BasicEligibility,
