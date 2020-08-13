@@ -1,7 +1,8 @@
 export var INTENT = {
   CAPTURE: 'capture',
   AUTHORIZE: 'authorize',
-  ORDER: 'order'
+  ORDER: 'order',
+  TOKENIZE: 'tokenize'
 };
 export var COMMIT = {
   TRUE: true,
