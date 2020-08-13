@@ -1,6 +1,6 @@
 {
   "name": "@paypal/sdk-constants",
-  "version": "1.0.64",
+  "version": "1.0.65",
   "description": "Utilities.",
   "main": "index.js",
   "scripts": {
