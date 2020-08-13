@@ -23,6 +23,18 @@ export type PayPalEligibility = {|
     vaultedInstruments? : $ReadOnlyArray<VaultedInstrument>
 |};
 
+export type FundingProductEligibility = {|
+    eligible? : boolean
+|};
+
+export type CreditEligibility = {|
+    eligible : boolean,
+    products? : {|
+        payIn4 : FundingProductEligibility,
+        flex : FundingProductEligibility
+    |}
+|};
+
 export type CardVendorEligibility = {|
     eligible : boolean,
     vaultable? : ?boolean,
