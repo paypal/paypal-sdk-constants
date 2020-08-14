@@ -1,10 +1,11 @@
 /* @flow */
 
 export const INTENT = {
-    CAPTURE:   ('capture' : 'capture'),
-    AUTHORIZE: ('authorize' : 'authorize'),
-    ORDER:     ('order' : 'order'),
-    TOKENIZE:  ('tokenize' : 'tokenize')
+    CAPTURE:      ('capture' : 'capture'),
+    AUTHORIZE:    ('authorize' : 'authorize'),
+    ORDER:        ('order' : 'order'),
+    TOKENIZE:     ('tokenize' : 'tokenize'),
+    SUBSCRIPTION: ('subscription' : 'subscription')
 };
 
 export const COMMIT = {
