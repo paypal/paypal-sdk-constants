@@ -10,14 +10,14 @@ export type VaultedInstrument = {|
 |};
 
 export type BasicEligibility = {|
-    eligible : boolean,
-    branded : boolean,
+    eligible : ?boolean,
+    branded : ?boolean,
     recommended? : ?boolean
 |};
 
 export type PayPalEligibility = {|
-    eligible : boolean,
-    branded : boolean,
+    eligible : ?boolean,
+    branded : ?boolean,
     recommended? : ?boolean,
     vaultable? : ?boolean,
     vaultedInstruments? : $ReadOnlyArray<VaultedInstrument>
@@ -28,7 +28,7 @@ export type FundingProductEligibility = {|
 |};
 
 export type PayLaterEligibility = {|
-    eligible : boolean,
+    elgibile : ?boolean,
     recommended? : ?boolean,
     products? : {|
         payIn4 : FundingProductEligibility,
@@ -37,7 +37,7 @@ export type PayLaterEligibility = {|
 |};
 
 export type CardVendorEligibility = {|
-    eligible : boolean,
+    elgibile : ?boolean,
     vaultable? : ?boolean,
     vaultedInstruments? : $ReadOnlyArray<VaultedInstrument>
 |};
@@ -54,8 +54,8 @@ export type CardVendorsEligibility = {|
 |};
 
 export type CardEligibility = {|
-    eligible : boolean,
-    branded : boolean,
+    elgibile : ?boolean,
+    branded : ?boolean,
     recommended? : ?boolean,
     vendors : CardVendorsEligibility
 |};
