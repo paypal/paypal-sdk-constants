@@ -28,7 +28,7 @@ export type FundingProductEligibility = {|
 |};
 
 export type PayLaterEligibility = {|
-    elgibile : ?boolean,
+    eligible : ?boolean,
     recommended? : ?boolean,
     products? : {|
         payIn4 : FundingProductEligibility,
@@ -37,7 +37,7 @@ export type PayLaterEligibility = {|
 |};
 
 export type CardVendorEligibility = {|
-    elgibile : ?boolean,
+    eligible : ?boolean,
     vaultable? : ?boolean,
     vaultedInstruments? : $ReadOnlyArray<VaultedInstrument>
 |};
@@ -54,7 +54,7 @@ export type CardVendorsEligibility = {|
 |};
 
 export type CardEligibility = {|
-    elgibile : ?boolean,
+    eligible : ?boolean,
     branded : ?boolean,
     recommended? : ?boolean,
     vendors : CardVendorsEligibility
