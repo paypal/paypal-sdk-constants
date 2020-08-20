@@ -49,3 +49,9 @@ export const WALLET_INSTRUMENT = {
     BANK:    ('bank' : 'bank'),
     CREDIT:  ('credit' : 'credit')
 };
+
+export const FUNDING_PRODUCTS = {
+    PAY_IN_4: ('payIn4' : 'payIn4'),
+    FLEX:     ('flex' : 'flex'),
+    CREDIT:   ('credit' : 'credit')
+};
