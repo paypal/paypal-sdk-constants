@@ -44,3 +44,8 @@ export var WALLET_INSTRUMENT = {
   BANK: 'bank',
   CREDIT: 'credit'
 };
+export var FUNDING_PRODUCTS = {
+  PAY_IN_4: 'payIn4',
+  FLEX: 'flex',
+  CREDIT: 'credit'
+};
