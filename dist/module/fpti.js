@@ -47,7 +47,9 @@ export var FPTI_KEY = {
   BUTTON_VERSION: 'button_version',
   FI_LIST: 'fi_list',
   CHOSEN_FI_TYPE: 'chosen_fi_type',
-  SELECTED_FI: 'merchant_selected_funding_source'
+  SELECTED_FI: 'merchant_selected_funding_source',
+  POTENTIAL_PAYMENT_METHODS: 'potential_payment_methods',
+  PAY_NOW: 'pay_now'
 };
 export var FPTI_USER_ACTION = {
   COMMIT: 'commit',
