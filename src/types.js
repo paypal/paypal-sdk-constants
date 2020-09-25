@@ -57,6 +57,7 @@ export type CardEligibility = {|
     eligible : ?boolean,
     branded : ?boolean,
     recommended? : ?boolean,
+    installments? : ?boolean,
     vendors : CardVendorsEligibility
 |};
 
