@@ -1,6 +1,10 @@
 paypal-sdk-constants
 --------------------
 
+[![npm version](https://img.shields.io/npm/v/@paypal/sdk-constants.svg?style=flat-square)](https://www.npmjs.com/package/@paypal/sdk-constants) [![build status](https://img.shields.io/travis/paypal/paypal-sdk-constants/master.svg?style=flat-square)](https://travis-ci.org/paypal/paypal-sdk-constants)
+
+[![dependencies Status](https://david-dm.org/paypal/paypal-sdk-constants/status.svg)](https://david-dm.org/paypal/paypal-sdk-constants) [![devDependencies Status](https://david-dm.org/paypal/paypal-sdk-constants/dev-status.svg)](https://david-dm.org/paypal/paypal-sdk-constants?type=dev)
+
 Constants for paypal sdk.
 
 Quick Start

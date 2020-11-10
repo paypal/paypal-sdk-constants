@@ -1,4 +1,4 @@
 export var PLATFORM = {
-    DESKTOP: 'desktop',
-    MOBILE: 'mobile'
+  DESKTOP: 'desktop',
+  MOBILE: 'mobile'
 };

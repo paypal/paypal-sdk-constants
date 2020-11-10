@@ -1,19 +1,18 @@
 {
   "name": "@paypal/sdk-constants",
-  "version": "1.0.21",
+  "version": "1.0.75",
   "description": "Utilities.",
   "main": "index.js",
   "scripts": {
     "setup": "npm install && npm run flow-typed",
-    "lint": "eslint src/ test/ *.js",
+    "lint": "eslint src/ *.js",
     "flow-typed": "rm -rf ./flow-typed && flow-typed install",
-    "flow:build": "flow gen-flow-files ./src/index.js > ./dist/paypal-sdk-constants.js.flow && flow gen-flow-files ./src/index.js > ./dist/paypal-sdk-constants.min.js.flow",
     "flow": "flow",
     "karma": "cross-env NODE_ENV=test babel-node --plugins=transform-es2015-modules-commonjs ./node_modules/.bin/karma start",
     "babel": "babel src/ --out-dir dist/module",
     "webpack": "babel-node --plugins=transform-es2015-modules-commonjs ./node_modules/.bin/webpack --progress",
     "test": "npm run lint && npm run flow-typed && npm run flow",
-    "build": "npm run test && npm run babel && npm run webpack && npm run flow:build",
+    "build": "npm run test && npm run babel && npm run webpack",
     "release": "./publish.sh",
     "release:patch": "./publish.sh patch",
     "release:minor": "./publish.sh minor",
@@ -48,9 +47,9 @@
   ],
   "readmeFilename": "README.md",
   "devDependencies": {
-    "flow-bin": "^0.77.0",
-    "grumbler-scripts": "^2.0.41",
-    "mocha": "^5.0.4"
+    "flow-bin": "0.129.0",
+    "grumbler-scripts": "3.0.70",
+    "mocha": "8.0.1"
   },
   "dependencies": {
     "cross-domain-utils": "^2.0.10",

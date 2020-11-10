@@ -6,3 +6,4 @@ export * from './order';
 export * from './platform';
 export * from './funding';
 export * from './defaults';
+export * from './types';
