@@ -6,7 +6,6 @@ export const FUNDING = {
     ITAU:           ('itau' : 'itau'),
     CREDIT:         ('credit' : 'credit'),
     PAYLATER:       ('paylater' : 'paylater'),
-    CARD:           ('card' : 'card'),
     IDEAL:          ('ideal' : 'ideal'),
     SEPA:           ('sepa' : 'sepa'),
     BANCONTACT:     ('bancontact' : 'bancontact'),
@@ -24,7 +23,8 @@ export const FUNDING = {
     OXXO:           ('oxxo' : 'oxxo'),
     BOLETO:         ('boleto' : 'boleto'),
     WECHATPAY:      ('wechatpay' : 'wechatpay'),
-    MERCADOPAGO:    ('mercadopago' : 'mercadopago')
+    MERCADOPAGO:    ('mercadopago' : 'mercadopago'),
+    CARD:           ('card' : 'card') // keep this at end of list so that card fields render directly below "pay with card" button
 };
 
 export const FUNDING_BRAND_LABEL = {
