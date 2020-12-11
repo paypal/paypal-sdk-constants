@@ -1,9 +1,19 @@
 paypal-sdk-constants
 --------------------
 
-[![npm version](https://img.shields.io/npm/v/@paypal/sdk-constants.svg?style=flat-square)](https://www.npmjs.com/package/@paypal/sdk-constants) [![build status](https://img.shields.io/travis/paypal/paypal-sdk-constants/master.svg?style=flat-square)](https://travis-ci.org/paypal/paypal-sdk-constants)
+[![build status][build-badge]][build]
+[![code coverage][coverage-badge]][coverage]
+[![npm version][version-badge]][package]
+[![apache license][license-badge]][license]
 
-[![dependencies Status](https://david-dm.org/paypal/paypal-sdk-constants/status.svg)](https://david-dm.org/paypal/paypal-sdk-constants) [![devDependencies Status](https://david-dm.org/paypal/paypal-sdk-constants/dev-status.svg)](https://david-dm.org/paypal/paypal-sdk-constants?type=dev)
+[build-badge]: https://img.shields.io/github/workflow/status/paypal/paypal-sdk-constants/build?logo=github&style=flat-square
+[build]: https://github.com/paypal/paypal-sdk-constants/actions?query=workflow%3Abuild
+[coverage-badge]: https://img.shields.io/codecov/c/github/paypal/paypal-sdk-constants.svg?style=flat-square
+[coverage]: https://codecov.io/github/paypal/paypal-sdk-constants/
+[version-badge]: https://img.shields.io/npm/v/@paypal/sdk-constants.svg?style=flat-square
+[package]: https://www.npmjs.com/package/@paypal/sdk-constants
+[license-badge]: https://img.shields.io/npm/l/@paypal/sdk-constants.svg?style=flat-square
+[license]: https://github.com/paypal/paypal-sdk-constants/blob/master/LICENSE
 
 Constants for paypal sdk.
 
