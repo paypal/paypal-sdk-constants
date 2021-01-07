@@ -50,7 +50,8 @@ export var FPTI_KEY = {
   SELECTED_FI: 'merchant_selected_funding_source',
   POTENTIAL_PAYMENT_METHODS: 'potential_payment_methods',
   PAY_NOW: 'pay_now',
-  STICKINESS_ID: ('stickiness_id', 'stickiness_id')
+  STICKINESS_ID: ('stickiness_id', 'stickiness_id'),
+  TIMESTAMP: ('t', 't')
 };
 export var FPTI_USER_ACTION = {
   COMMIT: 'commit',
