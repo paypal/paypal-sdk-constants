@@ -68,10 +68,14 @@ export const PROTOCOL = {
 };
 
 export const PAGE_TYPES = {
-    HOME:       ('home' : 'home'),
-    PRODUCT:    ('product' : 'product'),
-    CART:       ('cart' : 'cart'),
-    CHECKOUT:   ('checkout' : 'checkout')
+    HOME:               ('home' : 'home'),
+    PRODUCT:            ('product' : 'product'),
+    CART:               ('cart' : 'cart'),
+    CHECKOUT:           ('checkout' : 'checkout'),
+    PRODUCT_LISTING:    ('product-listing' : 'product-listing'),
+    SEARCH_RESULTS:     ('search-results' : 'search-results'),
+    PRODUCT_DETAILS:    ('product-details' : 'product-details'),
+    MINI_CART:          ('mini-cart' : 'mini-cart')
 };
 
 export const MERCHANT_ID_MAX = 10;
