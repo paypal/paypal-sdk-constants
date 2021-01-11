@@ -54,6 +54,10 @@ export var PAGE_TYPES = {
   HOME: 'home',
   PRODUCT: 'product',
   CART: 'cart',
-  CHECKOUT: 'checkout'
+  CHECKOUT: 'checkout',
+  PRODUCT_LISTING: 'product-listing',
+  SEARCH_RESULTS: 'search-results',
+  PRODUCT_DETAILS: 'product-details',
+  MINI_CART: 'mini-cart'
 };
 export var MERCHANT_ID_MAX = 10;
