@@ -35,6 +35,8 @@ export const FPTI_KEY = {
     PAGE_TYPE:                 ('pp_placement' : 'pp_placement'),
     SDK_NAME:                  ('sdk_name' : 'sdk_name'),
     SDK_VERSION:               ('sdk_version' : 'sdk_version'),
+    MOBILE_APP_VERSION:        ('mobile_app_version' : 'mobile_app_version'),
+    MOBILE_BUNDLE_IDENTIFIER:  ('mobile_bundle_id' : 'mobile_bundle_id'),
     USER_AGENT:                ('user_agent' : 'user_agent'),
     USER_ACTION:               ('user_action' : 'user_action'),
     CONTEXT_CORRID:            ('context_correlation_id' : 'context_correlation_id'),
