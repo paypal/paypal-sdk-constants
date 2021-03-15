@@ -15,7 +15,8 @@ export const SDK_SETTINGS = {
     USER_ID_TOKEN:          ('data-user-id-token' : 'data-user-id-token'),
     AMOUNT:                 ('data-amount' : 'data-amount'),
     CLIENT_METADATA_ID:     ('data-client-metadata-id' : 'data-client-metadata-id'),
-    PAGE_TYPE:              ('data-page-type' : 'data-page-type')
+    PAGE_TYPE:              ('data-page-type' : 'data-page-type'),
+    USER_EXPERIENCE_FLOW:   ('data-user-experience-flow' : 'data-user-experience-flow')
 };
 
 export const SDK_QUERY_KEYS = {
