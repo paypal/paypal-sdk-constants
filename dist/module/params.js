@@ -12,7 +12,8 @@ export var SDK_SETTINGS = {
   USER_ID_TOKEN: 'data-user-id-token',
   AMOUNT: 'data-amount',
   CLIENT_METADATA_ID: 'data-client-metadata-id',
-  PAGE_TYPE: 'data-page-type'
+  PAGE_TYPE: 'data-page-type',
+  USER_EXPERIENCE_FLOW: 'data-user-experience-flow'
 };
 export var SDK_QUERY_KEYS = {
   COMPONENTS: 'components',
