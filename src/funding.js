@@ -3,6 +3,7 @@
 export const FUNDING = {
     PAYPAL:         ('paypal' : 'paypal'),
     VENMO:          ('venmo' : 'venmo'),
+    APPLEPAY:       ('applepay' : 'applepay'),
     ITAU:           ('itau' : 'itau'),
     CREDIT:         ('credit' : 'credit'),
     PAYLATER:       ('paylater' : 'paylater'),
