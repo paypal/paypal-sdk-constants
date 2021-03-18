@@ -1,6 +1,7 @@
 export var FUNDING = {
   PAYPAL: 'paypal',
   VENMO: 'venmo',
+  APPLEPAY: 'applepay',
   ITAU: 'itau',
   CREDIT: 'credit',
   PAYLATER: 'paylater',
