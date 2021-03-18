@@ -65,6 +65,7 @@ export type FundingEligibilityType = {|
     paypal? : PayPalEligibility,
     card? : CardEligibility,
     venmo? : BasicEligibility,
+    applepay? : BasicEligibility,
     credit? : BasicEligibility,
     paylater? : PayLaterEligibility,
     sepa? : BasicEligibility,
