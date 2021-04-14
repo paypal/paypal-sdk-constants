@@ -54,8 +54,9 @@ export const FPTI_KEY = {
     SELECTED_FI:               ('merchant_selected_funding_source' : 'merchant_selected_funding_source'),
     POTENTIAL_PAYMENT_METHODS: ('potential_payment_methods' : 'potential_payment_methods'),
     PAY_NOW:                   ('pay_now' : 'pay_now'),
-    STICKINESS_ID:             ('stickiness_id', 'stickiness_id'),
-    TIMESTAMP:                 ('t', 't')
+    STICKINESS_ID:             ('stickiness_id' : 'stickiness_id'),
+    TIMESTAMP:                 ('t' : 't'),
+    OPTION_SELECTED:           ('optsel' : 'optsel')
 };
 
 export const FPTI_USER_ACTION = {
