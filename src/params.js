@@ -43,7 +43,8 @@ export const SDK_QUERY_KEYS = {
     DISABLE_CARD:    ('disable-card' : 'disable-card'),
 
     INTEGRATION_DATE: ('integration-date' : 'integration-date'),
-    STAGE_HOST:       ('stage-host' : 'stage-host')
+    STAGE_HOST:       ('stage-host' : 'stage-host'),
+    STAGE_ALIAS:      ('stage-alias' : 'stage-alias')
 };
 
 export const COMPONENTS = {
