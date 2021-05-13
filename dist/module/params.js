@@ -33,7 +33,9 @@ export var SDK_QUERY_KEYS = {
   DISABLE_CARD: 'disable-card',
   INTEGRATION_DATE: 'integration-date',
   STAGE_HOST: 'stage-host',
-  STAGE_ALIAS: 'stage-alias'
+  STAGE_ALIAS: 'stage-alias',
+  CDN_REGISTRY: 'cdn-registry',
+  VERSION: 'version'
 };
 export var COMPONENTS = {
   BUTTONS: 'buttons',
