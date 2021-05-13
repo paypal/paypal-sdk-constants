@@ -44,7 +44,9 @@ export const SDK_QUERY_KEYS = {
 
     INTEGRATION_DATE: ('integration-date' : 'integration-date'),
     STAGE_HOST:       ('stage-host' : 'stage-host'),
-    STAGE_ALIAS:      ('stage-alias' : 'stage-alias')
+    STAGE_ALIAS:      ('stage-alias' : 'stage-alias'),
+    CDN_REGISTRY:     ('cdn-registry' : 'cdn-registry'),
+    VERSION:          ('version' : 'version')
 };
 
 export const COMPONENTS = {
