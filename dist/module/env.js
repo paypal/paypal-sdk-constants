@@ -5,3 +5,7 @@ export var ENV = {
   PRODUCTION: 'production',
   TEST: 'test'
 };
+export var MOBILE_ENV = {
+  ANDROID: 'android',
+  IOS: 'ios'
+};

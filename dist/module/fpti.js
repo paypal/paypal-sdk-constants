@@ -33,6 +33,7 @@ export var FPTI_KEY = {
   PAGE_TYPE: 'pp_placement',
   SDK_NAME: 'sdk_name',
   SDK_VERSION: 'sdk_version',
+  SDK_ENVIRONMENT: 'sdk_environment',
   MOBILE_APP_VERSION: 'mobile_app_version',
   MOBILE_BUNDLE_IDENTIFIER: 'mapv',
   USER_AGENT: 'user_agent',
