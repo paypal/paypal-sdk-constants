@@ -7,3 +7,8 @@ export const ENV = {
     PRODUCTION: ('production' : 'production'),
     TEST:       ('test' : 'test')
 };
+
+export const MOBILE_ENV = {
+    ANDROID:    ('android' : 'android'),
+    IOS:        ('ios' : 'ios')
+};
