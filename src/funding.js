@@ -48,7 +48,8 @@ export const WALLET_INSTRUMENT = {
     BALANCE: ('balance' : 'balance'),
     CARD:    ('card' : 'card'),
     BANK:    ('bank' : 'bank'),
-    CREDIT:  ('credit' : 'credit')
+    CREDIT:  ('credit' : 'credit'),
+    VENMO:   ('venmo' : 'venmo')
 };
 
 export const FUNDING_PRODUCTS = {
