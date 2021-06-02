@@ -53,6 +53,6 @@ export const WALLET_INSTRUMENT = {
 
 export const FUNDING_PRODUCTS = {
     PAY_IN_4: ('payIn4' : 'payIn4'),
-    FLEX:     ('flex' : 'flex'),
+    PAYLATER:     ('paylater' : 'paylater'),
     CREDIT:   ('credit' : 'credit')
 };

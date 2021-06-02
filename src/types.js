@@ -24,7 +24,8 @@ export type PayPalEligibility = {|
 |};
 
 export type FundingProductEligibility = {|
-    eligible? : boolean
+    eligible? : boolean,
+    variant? : ?string
 |};
 
 export type PayLaterEligibility = {|
@@ -32,7 +33,7 @@ export type PayLaterEligibility = {|
     recommended? : ?boolean,
     products? : {|
         payIn4 : FundingProductEligibility,
-        flex : FundingProductEligibility
+        paylater : FundingProductEligibility
     |}
 |};
 
