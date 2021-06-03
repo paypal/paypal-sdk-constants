@@ -44,7 +44,7 @@
   "devDependencies": {
     "flow-bin": "0.129.0",
     "grumbler-scripts": "3.0.70",
-    "mocha": "8.0.1"
+    "mocha": "8.4.0"
   },
   "dependencies": {
     "cross-domain-utils": "^2.0.10",
