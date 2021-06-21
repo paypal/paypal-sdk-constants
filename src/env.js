@@ -10,5 +10,5 @@ export const ENV = {
 
 export const MOBILE_ENV = {
     ANDROID:    ('android' : 'android'),
-    IOS:        ('ios' : 'ios')
+    IOS:        ('iOS' : 'iOS')
 };
