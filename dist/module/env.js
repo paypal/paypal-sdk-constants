@@ -7,5 +7,5 @@ export var ENV = {
 };
 export var MOBILE_ENV = {
   ANDROID: 'android',
-  IOS: 'ios'
+  IOS: 'iOS'
 };
