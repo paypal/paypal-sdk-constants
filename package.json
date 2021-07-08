@@ -42,7 +42,7 @@
   "license": "Apache-2.0",
   "readmeFilename": "README.md",
   "devDependencies": {
-    "flow-bin": "0.129.0",
+    "flow-bin": "0.155.0",
     "grumbler-scripts": "3.0.70",
     "mocha": "8.0.1"
   },
