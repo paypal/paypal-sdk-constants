@@ -243,7 +243,7 @@ export const LANG = {
     TL: ('tl' : 'tl'),
     TR: ('tr' : 'tr'),
     VI: ('vi' : 'vi'),
-    ZH: ('zh' : 'zh')
+    ZH: ('zh' : 'zh'),
     ZH_HANT: ('zh_Hant' : 'zh_Hant')
 };
 
@@ -642,7 +642,7 @@ export const COUNTRY_LANGS : CountryMap = {
     TR: [ LANG.TR, LANG.EN ],
     TT: [ LANG.EN, LANG.FR, LANG.ES, LANG.ZH ],
     TV: [ LANG.EN, LANG.FR, LANG.ES, LANG.ZH ],
-    TW: [ LANG.ZH, LANG.EN ],
+    TW: [ LANG.ZH, LANG.EN, LANG.ZH_HANT ],
     TZ: [ LANG.EN, LANG.FR, LANG.ES, LANG.ZH ],
     UA: [ LANG.EN, LANG.RU, LANG.FR, LANG.ES, LANG.ZH ],
     UG: [ LANG.EN, LANG.FR, LANG.ES, LANG.ZH ],
