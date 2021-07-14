@@ -244,6 +244,7 @@ export const LANG = {
     TR: ('tr' : 'tr'),
     VI: ('vi' : 'vi'),
     ZH: ('zh' : 'zh')
+    ZH_HANT: ('zh_Hant' : 'zh_Hant')
 };
 
 export type CountryLangs = {|
@@ -323,7 +324,7 @@ export type CountryLangs = {|
     GT : 'es' | 'en' | 'fr' | 'zh',
     GW : 'en' | 'fr' | 'es' | 'zh',
     GY : 'en' | 'fr' | 'es' | 'zh',
-    HK : 'en' | 'zh',
+    HK : 'en' | 'zh_Hant',
     HN : 'es' | 'en' | 'fr' | 'zh',
     HR : 'en',
     HU : 'hu' | 'en' | 'fr' | 'es' | 'zh',
@@ -431,7 +432,7 @@ export type CountryLangs = {|
     TR : 'tr' | 'en',
     TT : 'en' | 'fr' | 'es' | 'zh',
     TV : 'en' | 'fr' | 'es' | 'zh',
-    TW : 'zh' | 'en',
+    TW : 'zh_Hant' | 'en',
     TZ : 'en' | 'fr' | 'es' | 'zh',
     UA : 'en' | 'ru' | 'fr' | 'es' | 'zh',
     UG : 'en' | 'fr' | 'es' | 'zh',
@@ -533,7 +534,7 @@ export const COUNTRY_LANGS : CountryMap = {
     GT: [ LANG.ES, LANG.EN, LANG.FR, LANG.ZH ],
     GW: [ LANG.EN, LANG.FR, LANG.ES, LANG.ZH ],
     GY: [ LANG.EN, LANG.FR, LANG.ES, LANG.ZH ],
-    HK: [ LANG.EN, LANG.ZH ],
+    HK: [ LANG.EN, LANG.ZH, LANG.ZH_HANT ],
     HN: [ LANG.ES, LANG.EN, LANG.FR, LANG.ZH ],
     HR: [ LANG.EN ],
     HU: [ LANG.HU, LANG.EN, LANG.FR, LANG.ES, LANG.ZH ],
