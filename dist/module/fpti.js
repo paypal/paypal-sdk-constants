@@ -55,7 +55,8 @@ export var FPTI_KEY = {
   PAY_NOW: 'pay_now',
   STICKINESS_ID: 'stickiness_id',
   TIMESTAMP: 't',
-  OPTION_SELECTED: 'optsel'
+  OPTION_SELECTED: 'optsel',
+  USER_IDENTITY_METHOD: 'user_identity_method'
 };
 export var FPTI_USER_ACTION = {
   COMMIT: 'commit',
