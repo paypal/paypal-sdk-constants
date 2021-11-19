@@ -46,6 +46,7 @@ export var WALLET_INSTRUMENT = {
   CREDIT: 'credit'
 };
 export var FUNDING_PRODUCTS = {
+  PAY_IN_3: 'payIn3',
   PAY_IN_4: 'payIn4',
   PAYLATER: 'paylater',
   CREDIT: 'credit'
