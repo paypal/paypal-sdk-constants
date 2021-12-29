@@ -58,7 +58,8 @@ export const FPTI_KEY = {
     STICKINESS_ID:             ('stickiness_id' : 'stickiness_id'),
     TIMESTAMP:                 ('t' : 't'),
     OPTION_SELECTED:           ('optsel' : 'optsel'),
-    USER_IDENTITY_METHOD:      ('user_identity_method' : 'user_identity_method')
+    USER_IDENTITY_METHOD:      ('user_identity_method' : 'user_identity_method'),
+    FIELDS_SESSION_ID:         ('fields_session_id' : 'fields_session_id')
 };
 
 export const FPTI_USER_ACTION = {
