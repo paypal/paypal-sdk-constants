@@ -87,5 +87,6 @@ export type FundingEligibilityType = {|
     maxima? : BasicEligibility,
     oxxo? : BasicEligibility,
     trustly? : BasicEligibility,
-    mercadopago? : BasicEligibility
+    mercadopago? : BasicEligibility,
+    multiblanco? : BasicEligibility
 |};
