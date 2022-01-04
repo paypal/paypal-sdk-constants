@@ -32,6 +32,7 @@ export type PayLaterEligibility = {|
     eligible : ?boolean,
     recommended? : ?boolean,
     products? : {|
+        payIn3 : FundingProductEligibility,
         payIn4 : FundingProductEligibility,
         paylater : FundingProductEligibility
     |}
