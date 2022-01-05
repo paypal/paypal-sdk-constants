@@ -23,7 +23,8 @@ export var FUNDING = {
   OXXO: 'oxxo',
   BOLETO: 'boleto',
   WECHATPAY: 'wechatpay',
-  MERCADOPAGO: 'mercadopago'
+  MERCADOPAGO: 'mercadopago',
+  MULTIBLANCO: 'multiblanco'
 };
 export var FUNDING_BRAND_LABEL = {
   PAYPAL: 'PayPal',

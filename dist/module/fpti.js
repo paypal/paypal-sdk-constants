@@ -56,7 +56,8 @@ export var FPTI_KEY = {
   STICKINESS_ID: 'stickiness_id',
   TIMESTAMP: 't',
   OPTION_SELECTED: 'optsel',
-  USER_IDENTITY_METHOD: 'user_identity_method'
+  USER_IDENTITY_METHOD: 'user_identity_method',
+  FIELDS_COMPONENT_SESSION_ID: 'fields_component_session_id'
 };
 export var FPTI_USER_ACTION = {
   COMMIT: 'commit',
