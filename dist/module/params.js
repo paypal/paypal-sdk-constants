@@ -14,7 +14,7 @@ export var SDK_SETTINGS = {
   CLIENT_METADATA_ID: 'data-client-metadata-id',
   PAGE_TYPE: 'data-page-type',
   USER_EXPERIENCE_FLOW: 'data-user-experience-flow',
-  DATA_POPUPS_DISABLED: 'data-popups-disabled'
+  POPUPS_DISABLED: 'data-popups-disabled'
 };
 export var SDK_QUERY_KEYS = {
   COMPONENTS: 'components',
