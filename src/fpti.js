@@ -57,6 +57,7 @@ export const FPTI_KEY = {
     PAY_NOW:                        ('pay_now' : 'pay_now'),
     STICKINESS_ID:                  ('stickiness_id' : 'stickiness_id'),
     TIMESTAMP:                      ('t' : 't'),
+    TIME:                           ('time' : 'time'),
     OPTION_SELECTED:                ('optsel' : 'optsel'),
     USER_IDENTITY_METHOD:           ('user_identity_method' : 'user_identity_method'),
     FIELDS_COMPONENT_SESSION_ID:    ('fields_component_session_id' : 'fields_component_session_id')
