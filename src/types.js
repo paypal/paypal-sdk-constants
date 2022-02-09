@@ -89,5 +89,5 @@ export type FundingEligibilityType = {|
     oxxo? : BasicEligibility,
     trustly? : BasicEligibility,
     mercadopago? : BasicEligibility,
-    multiblanco? : BasicEligibility
+    multibanco? : BasicEligibility
 |};
