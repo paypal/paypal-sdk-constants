@@ -26,7 +26,8 @@ export const FUNDING = {
     BOLETO:         ('boleto' : 'boleto'),
     WECHATPAY:      ('wechatpay' : 'wechatpay'),
     MERCADOPAGO:    ('mercadopago' : 'mercadopago'),
-    MULTIBLANCO:    ('multiblanco' : 'multiblanco')
+    MULTIBLANCO:    ('multiblanco' : 'multiblanco'),
+    MULTIBANCO:      ('multibanco' : 'multibanco')
 };
 
 export const FUNDING_BRAND_LABEL = {
