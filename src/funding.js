@@ -26,7 +26,6 @@ export const FUNDING = {
     BOLETO:         ('boleto' : 'boleto'),
     WECHATPAY:      ('wechatpay' : 'wechatpay'),
     MERCADOPAGO:    ('mercadopago' : 'mercadopago'),
-    MULTIBLANCO:    ('multiblanco' : 'multiblanco'),
     MULTIBANCO:      ('multibanco' : 'multibanco')
 };
 
