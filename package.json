@@ -42,8 +42,8 @@
   "license": "Apache-2.0",
   "readmeFilename": "README.md",
   "devDependencies": {
-    "flow-bin": "0.129.0",
-    "grumbler-scripts": "^5.0.0"
+    "@krakenjs/grumbler-scripts": "^6.0.2",
+    "flow-bin": "0.129.0"
   },
   "dependencies": {
     "hi-base32": "^0.5.0"
