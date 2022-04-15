@@ -4,6 +4,7 @@ export const FPTI_KEY = {
     FEED:                           ('feed_name' : 'feed_name'),
     STATE:                          ('state_name' : 'state_name'),
     TRANSITION:                     ('transition_name' : 'transition_name'),
+    PAGE:                           ('page_name' : 'page_name'),
     BUTTON_TYPE:                    ('button_type' : 'button_type'),
     SESSION_UID:                    ('page_session_id' : 'page_session_id'),
     BUTTON_SESSION_UID:             ('button_session_id' : 'button_session_id'),
@@ -59,7 +60,10 @@ export const FPTI_KEY = {
     TIMESTAMP:                      ('t' : 't'),
     OPTION_SELECTED:                ('optsel' : 'optsel'),
     USER_IDENTITY_METHOD:           ('user_identity_method' : 'user_identity_method'),
-    FIELDS_COMPONENT_SESSION_ID:    ('fields_component_session_id' : 'fields_component_session_id')
+    FIELDS_COMPONENT_SESSION_ID:    ('fields_component_session_id' : 'fields_component_session_id'),
+    CPL_COMP_METRICS:               ('cpl_comp_metrics' : 'cpl_comp_metrics'),
+    CPL_CHUNK_METRICS:              ('cpl_chunk_metrics' : 'cpl_chunk_metrics'),
+    CPL_QUERY_METRICS:              ('cpl_query_metrics' : 'cpl_query_metrics')
 };
 
 export const FPTI_USER_ACTION = {
