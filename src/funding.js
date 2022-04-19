@@ -26,7 +26,8 @@ export const FUNDING = {
     BOLETO:         ('boleto' : 'boleto'),
     WECHATPAY:      ('wechatpay' : 'wechatpay'),
     MERCADOPAGO:    ('mercadopago' : 'mercadopago'),
-    MULTIBANCO:      ('multibanco' : 'multibanco')
+    MULTIBANCO:      ('multibanco' : 'multibanco'), 
+    PAY_UPON_INVOICE: ('payUponInvoice', 'payUponInvoice')
 };
 
 export const FUNDING_BRAND_LABEL = {
