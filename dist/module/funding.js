@@ -24,8 +24,7 @@ export var FUNDING = {
   BOLETO: 'boleto',
   WECHATPAY: 'wechatpay',
   MERCADOPAGO: 'mercadopago',
-  MULTIBANCO: 'multibanco',
-  PAY_UPON_INVOICE: ('PayUponInvoice', 'PayUponInvoice')
+  MULTIBANCO: 'multibanco'
 };
 export var FUNDING_BRAND_LABEL = {
   PAYPAL: 'PayPal',
