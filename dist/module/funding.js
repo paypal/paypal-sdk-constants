@@ -21,7 +21,7 @@ export var FUNDING = {
   ZIMPLER: 'zimpler',
   MAXIMA: 'maxima',
   OXXO: 'oxxo',
-  BOLETO: 'boleto',
+  BOLETOBANCARIO: 'boletobancario',
   WECHATPAY: 'wechatpay',
   MERCADOPAGO: 'mercadopago',
   MULTIBANCO: 'multibanco'

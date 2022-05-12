@@ -84,7 +84,7 @@ export type FundingEligibilityType = {|
     payu? : BasicEligibility,
     verkkopankki? : BasicEligibility,
     blik? : BasicEligibility,
-    boleto? : BasicEligibility,
+    boletobancario? : BasicEligibility,
     maxima? : BasicEligibility,
     oxxo? : BasicEligibility,
     trustly? : BasicEligibility,
