@@ -23,6 +23,7 @@ export const FUNDING = {
     ZIMPLER:        ('zimpler' : 'zimpler'),
     MAXIMA:         ('maxima' : 'maxima'),
     OXXO:           ('oxxo' : 'oxxo'),
+    BOLETO:         ('boleto' : 'boleto'),
     BOLETOBANCARIO: ('boletobancario' : 'boletobancario'),
     WECHATPAY:      ('wechatpay' : 'wechatpay'),
     MERCADOPAGO:    ('mercadopago' : 'mercadopago'),
