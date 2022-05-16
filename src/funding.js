@@ -24,9 +24,10 @@ export const FUNDING = {
     MAXIMA:         ('maxima' : 'maxima'),
     OXXO:           ('oxxo' : 'oxxo'),
     BOLETO:         ('boleto' : 'boleto'),
+    BOLETOBANCARIO: ('boletobancario' : 'boletobancario'),
     WECHATPAY:      ('wechatpay' : 'wechatpay'),
     MERCADOPAGO:    ('mercadopago' : 'mercadopago'),
-    MULTIBANCO:      ('multibanco' : 'multibanco')
+    MULTIBANCO:     ('multibanco' : 'multibanco')
 };
 
 export const FUNDING_BRAND_LABEL = {
