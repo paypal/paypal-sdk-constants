@@ -11,7 +11,9 @@
     "karma": "cross-env NODE_ENV=test babel-node --plugins=transform-es2015-modules-commonjs ./node_modules/.bin/karma start",
     "babel": "babel src/ --out-dir dist/module",
     "webpack": "babel-node --plugins=transform-es2015-modules-commonjs ./node_modules/.bin/webpack --progress",
-    "test": "npm run lint && npm run flow-typed && npm run flow",
+    "format": "prettier --write --ignore-unknown .",
+    "format:check": "prettier --check .",
+    "test": "npm run format:check && npm run lint && npm run flow-typed && npm run flow",
     "build": "npm run test && npm run babel && npm run webpack",
     "release": "./publish.sh",
     "release:patch": "./publish.sh patch",
@@ -19,7 +21,8 @@
     "release:major": "./publish.sh major",
     "clean": "rimraf dist coverage",
     "reinstall": "rimraf flow-typed && rimraf node_modules && npm install && flow-typed install",
-    "debug": "cross-env NODE_ENV=debug"
+    "debug": "cross-env NODE_ENV=debug",
+    "prepare": "husky install"
   },
   "files": [
     "dist/",
@@ -43,9 +46,15 @@
   "readmeFilename": "README.md",
   "devDependencies": {
     "@krakenjs/grumbler-scripts": "^7.0.0",
-    "flow-bin": "0.129.0"
+    "flow-bin": "0.129.0",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "prettier": "2.7.1"
   },
   "dependencies": {
     "hi-base32": "^0.5.0"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
   }
 }
