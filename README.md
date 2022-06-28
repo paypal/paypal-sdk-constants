@@ -1,5 +1,4 @@
-paypal-sdk-constants
---------------------
+## paypal-sdk-constants
 
 [![build status][build-badge]][build]
 [![npm version][version-badge]][package]
@@ -14,8 +13,7 @@ paypal-sdk-constants
 
 Constants for paypal sdk.
 
-Quick Start
------------
+## Quick Start
 
 #### Getting Started
 
