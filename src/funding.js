@@ -28,6 +28,7 @@ export const FUNDING = {
   WECHATPAY: ("wechatpay": "wechatpay"),
   MERCADOPAGO: ("mercadopago": "mercadopago"),
   MULTIBANCO: ("multibanco": "multibanco"),
+  GRABPAY: ("grabpay": "grabpay"),
 };
 
 export const FUNDING_BRAND_LABEL = {
