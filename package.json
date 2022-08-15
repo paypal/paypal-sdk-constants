@@ -2,25 +2,25 @@
   "name": "@paypal/sdk-constants",
   "version": "1.0.122",
   "description": "Utilities.",
-  "main": "index.js",
+  "main": "dist/paypal-sdk-constants.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/types/index.d.ts",
+  "sideEffects": false,
   "scripts": {
-    "setup": "npm install && npm run flow-typed",
-    "lint": "eslint src/ *.js",
-    "flow-typed": "rm -rf ./flow-typed && flow-typed install",
-    "flow": "flow",
+    "lint": "npm run format:check && npm run eslint",
+    "eslint": "eslint src/*.ts",
     "karma": "cross-env NODE_ENV=test babel-node --plugins=transform-es2015-modules-commonjs ./node_modules/.bin/karma start",
     "babel": "babel src/ --out-dir dist/module",
     "webpack": "babel-node --plugins=transform-es2015-modules-commonjs ./node_modules/.bin/webpack --progress",
     "format": "prettier --write --ignore-unknown .",
     "format:check": "prettier --check .",
-    "test": "npm run format:check && npm run lint && npm run flow-typed && npm run flow",
+    "test": "npm run lint",
     "build": "npm run test && npm run babel && npm run webpack",
     "release": "./publish.sh",
     "release:patch": "./publish.sh patch",
     "release:minor": "./publish.sh minor",
     "release:major": "./publish.sh major",
     "clean": "rimraf dist coverage",
-    "reinstall": "rimraf flow-typed && rimraf node_modules && npm install && flow-typed install",
     "debug": "cross-env NODE_ENV=debug",
     "prepare": "husky install"
   },
@@ -46,13 +46,10 @@
   "readmeFilename": "README.md",
   "devDependencies": {
     "@krakenjs/grumbler-scripts": "^7.0.0",
-    "flow-bin": "0.129.0",
     "husky": "^8.0.1",
     "lint-staged": "^13.0.3",
-    "prettier": "2.7.1"
-  },
-  "dependencies": {
-    "hi-base32": "^0.5.0"
+    "prettier": "2.7.1",
+    "utility-types": "^3.10.0"
   },
   "lint-staged": {
     "**/*": "prettier --write --ignore-unknown"

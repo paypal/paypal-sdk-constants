@@ -27,8 +27,3 @@ Constants for paypal sdk.
 ```bash
 npm run build
 ```
-
-#### Publishing
-
-- Publish your code: `npm run release` to add a patch
-  - Or `npm run release:path`, `npm run release:minor`, `npm run release:major`

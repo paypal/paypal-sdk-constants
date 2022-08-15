@@ -1,0 +1,55 @@
+export const FUNDING = {
+  PAYPAL: "paypal" as const,
+  VENMO: "venmo" as const,
+  APPLEPAY: "applepay" as const,
+  ITAU: "itau" as const,
+  CREDIT: "credit" as const,
+  PAYLATER: "paylater" as const,
+  CARD: "card" as const,
+  IDEAL: "ideal" as const,
+  SEPA: "sepa" as const,
+  BANCONTACT: "bancontact" as const,
+  GIROPAY: "giropay" as const,
+  SOFORT: "sofort" as const,
+  EPS: "eps" as const,
+  MYBANK: "mybank" as const,
+  P24: "p24" as const,
+  VERKKOPANKKI: "verkkopankki" as const,
+  PAYU: "payu" as const,
+  BLIK: "blik" as const,
+  TRUSTLY: "trustly" as const,
+  ZIMPLER: "zimpler" as const,
+  MAXIMA: "maxima" as const,
+  OXXO: "oxxo" as const,
+  BOLETO: "boleto" as const,
+  BOLETOBANCARIO: "boletobancario" as const,
+  WECHATPAY: "wechatpay" as const,
+  MERCADOPAGO: "mercadopago" as const,
+  MULTIBANCO: "multibanco" as const,
+};
+export const FUNDING_BRAND_LABEL = {
+  PAYPAL: "PayPal" as const,
+  CREDIT: "PayPal Credit" as const,
+};
+export const CARD = {
+  VISA: "visa" as const,
+  MASTERCARD: "mastercard" as const,
+  AMEX: "amex" as const,
+  DISCOVER: "discover" as const,
+  HIPER: "hiper" as const,
+  ELO: "elo" as const,
+  JCB: "jcb" as const,
+  CUP: "cup" as const,
+};
+export const WALLET_INSTRUMENT = {
+  BALANCE: "balance" as const,
+  CARD: "card" as const,
+  BANK: "bank" as const,
+  CREDIT: "credit" as const,
+};
+export const FUNDING_PRODUCTS = {
+  PAY_IN_3: "payIn3" as const,
+  PAY_IN_4: "payIn4" as const,
+  PAYLATER: "paylater" as const,
+  CREDIT: "credit" as const,
+};
