@@ -1,68 +1,68 @@
-export var SDK_PATH = '/sdk/js';
+export var SDK_PATH = "/sdk/js";
 export var SDK_SETTINGS = {
-  NAMESPACE: 'data-namespace',
-  CLIENT_TOKEN: 'data-client-token',
-  MERCHANT_ID: 'data-merchant-id',
-  PARTNER_ATTRIBUTION_ID: 'data-partner-attribution-id',
-  STAGE_HOST: 'data-stage-host',
-  API_STAGE_HOST: 'data-api-stage-host',
-  CSP_NONCE: 'data-csp-nonce',
-  ENABLE_3DS: 'data-enable-3ds',
-  SDK_INTEGRATION_SOURCE: 'data-sdk-integration-source',
-  USER_ID_TOKEN: 'data-user-id-token',
-  AMOUNT: 'data-amount',
-  CLIENT_METADATA_ID: 'data-client-metadata-id',
-  PAGE_TYPE: 'data-page-type',
-  USER_EXPERIENCE_FLOW: 'data-user-experience-flow',
-  POPUPS_DISABLED: 'data-popups-disabled'
+  NAMESPACE: "data-namespace",
+  CLIENT_TOKEN: "data-client-token",
+  MERCHANT_ID: "data-merchant-id",
+  PARTNER_ATTRIBUTION_ID: "data-partner-attribution-id",
+  STAGE_HOST: "data-stage-host",
+  API_STAGE_HOST: "data-api-stage-host",
+  CSP_NONCE: "data-csp-nonce",
+  ENABLE_3DS: "data-enable-3ds",
+  SDK_INTEGRATION_SOURCE: "data-sdk-integration-source",
+  USER_ID_TOKEN: "data-user-id-token",
+  AMOUNT: "data-amount",
+  CLIENT_METADATA_ID: "data-client-metadata-id",
+  PAGE_TYPE: "data-page-type",
+  USER_EXPERIENCE_FLOW: "data-user-experience-flow",
+  POPUPS_DISABLED: "data-popups-disabled"
 };
 export var SDK_QUERY_KEYS = {
-  COMPONENTS: 'components',
-  ENV: 'env',
-  DEBUG: 'debug',
-  CACHEBUST: 'cachebust',
-  CLIENT_ID: 'client-id',
-  MERCHANT_ID: 'merchant-id',
-  LOCALE: 'locale',
-  CURRENCY: 'currency',
-  INTENT: 'intent',
-  COMMIT: 'commit',
-  VAULT: 'vault',
-  BUYER_COUNTRY: 'buyer-country',
-  ENABLE_FUNDING: 'enable-funding',
-  DISABLE_FUNDING: 'disable-funding',
-  DISABLE_CARD: 'disable-card',
-  INTEGRATION_DATE: 'integration-date',
-  STAGE_HOST: 'stage-host',
-  STAGE_ALIAS: 'stage-alias',
-  CDN_REGISTRY: 'cdn-registry',
-  VERSION: 'version'
+  COMPONENTS: "components",
+  ENV: "env",
+  DEBUG: "debug",
+  CACHEBUST: "cachebust",
+  CLIENT_ID: "client-id",
+  MERCHANT_ID: "merchant-id",
+  LOCALE: "locale",
+  CURRENCY: "currency",
+  INTENT: "intent",
+  COMMIT: "commit",
+  VAULT: "vault",
+  BUYER_COUNTRY: "buyer-country",
+  ENABLE_FUNDING: "enable-funding",
+  DISABLE_FUNDING: "disable-funding",
+  DISABLE_CARD: "disable-card",
+  INTEGRATION_DATE: "integration-date",
+  STAGE_HOST: "stage-host",
+  STAGE_ALIAS: "stage-alias",
+  CDN_REGISTRY: "cdn-registry",
+  VERSION: "version"
 };
 export var COMPONENTS = {
-  BUTTONS: 'buttons',
-  HOSTED_FIELDS: 'hosted-fields'
+  BUTTONS: "buttons",
+  HOSTED_FIELDS: "hosted-fields"
 };
 export var DEBUG = {
   TRUE: true,
   FALSE: false
 };
 export var QUERY_BOOL = {
-  TRUE: 'true',
-  FALSE: 'false'
+  TRUE: "true",
+  FALSE: "false"
 };
-export var UNKNOWN = 'unknown';
+export var UNKNOWN = "unknown";
 export var PROTOCOL = {
-  HTTP: 'http',
-  HTTPS: 'https'
+  HTTP: "http",
+  HTTPS: "https"
 };
 export var PAGE_TYPES = {
-  HOME: 'home',
-  PRODUCT: 'product',
-  CART: 'cart',
-  CHECKOUT: 'checkout',
-  PRODUCT_LISTING: 'product-listing',
-  SEARCH_RESULTS: 'search-results',
-  PRODUCT_DETAILS: 'product-details',
-  MINI_CART: 'mini-cart'
+  HOME: "home",
+  PRODUCT: "product",
+  CART: "cart",
+  CHECKOUT: "checkout",
+  PRODUCT_LISTING: "product-listing",
+  SEARCH_RESULTS: "search-results",
+  PRODUCT_DETAILS: "product-details",
+  MINI_CART: "mini-cart"
 };
 export var MERCHANT_ID_MAX = 10;
