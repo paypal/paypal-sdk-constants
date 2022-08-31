@@ -4,6 +4,7 @@ export const FPTI_KEY = {
     FEED:                      ('feed_name' : 'feed_name'),
     STATE:                     ('state_name' : 'state_name'),
     TRANSITION:                ('transition_name' : 'transition_name'),
+    EVENT_NAME:                ('event_name' : 'event_name'),
     BUTTON_TYPE:               ('button_type' : 'button_type'),
     SESSION_UID:               ('page_session_id' : 'page_session_id'),
     BUTTON_SESSION_UID:        ('button_session_id' : 'button_session_id'),
