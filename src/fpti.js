@@ -3,6 +3,7 @@
 export const FPTI_KEY = {
   FEED: ("feed_name": "feed_name"),
   STATE: ("state_name": "state_name"),
+  EVENT_NAME: ("event_name": "event_name"),
   TRANSITION: ("transition_name": "transition_name"),
   PAGE: ("page_name": "page_name"),
   BUTTON_TYPE: ("button_type": "button_type"),
