@@ -50,6 +50,8 @@ export const CARD = {
 export const WALLET_INSTRUMENT = {
   BALANCE: ("balance": "balance"),
   CARD: ("card": "card"),
+  CARD_BALANCE: ("card_balance": "card_balance"),
+  BANK_BALANCE: ("bank_balance": "bank_balance"),
   BANK: ("bank": "bank"),
   CREDIT: ("credit": "credit"),
 };
