@@ -60,8 +60,8 @@ export type CardEligibility = {|
   branded: ?boolean,
   recommended?: ?boolean,
   installments?: ?boolean,
+  guestEnabled?: ?boolean,
   vendors: CardVendorsEligibility,
-  guestEnabled: boolean,
 |};
 
 export type FundingEligibilityType = {|
