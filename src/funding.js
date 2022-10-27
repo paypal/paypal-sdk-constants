@@ -28,7 +28,6 @@ export const FUNDING = {
   WECHATPAY: ("wechatpay": "wechatpay"),
   MERCADOPAGO: ("mercadopago": "mercadopago"),
   MULTIBANCO: ("multibanco": "multibanco"),
-  ALIPAY: ("alipay": "alipay"),
   SATISPAY: ("satispay": "satispay"),
 };
 
