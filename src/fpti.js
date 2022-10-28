@@ -54,6 +54,7 @@ export const FPTI_KEY = {
   BUTTON_VERSION: ("button_version": "button_version"),
   FI_LIST: ("fi_list": "fi_list"),
   FI_ID: ("fi_id": "fi_id"),
+  PRODUCT: ("product": "product"),
   CHOSEN_FI_TYPE: ("chosen_fi_type": "chosen_fi_type"),
   SELECTED_FI:
     ("merchant_selected_funding_source": "merchant_selected_funding_source"),
