@@ -1,5 +1,4 @@
 import { FUNDING } from "./funding";
-
 export const APM_LIST = [
   FUNDING.IDEAL,
   FUNDING.BANCONTACT,
