@@ -1,5 +1,8 @@
 export const FPTI_KEY = {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5f5a6a6 (simplify the code)
   FEED: "feed_name",
   STATE: "state_name",
   EVENT_NAME: "event_name",
@@ -65,6 +68,7 @@ export const FPTI_KEY = {
   CPL_CHUNK_METRICS: "cpl_chunk_metrics",
   CPL_QUERY_METRICS: "cpl_query_metrics",
 } as const;
+<<<<<<< HEAD
 export const FPTI_USER_ACTION = {
   COMMIT: "commit",
   CONTINUE: "continue",
@@ -144,17 +148,24 @@ export const FPTI_SDK_NAME = {
   CPL_CHUNK_METRICS: "cpl_chunk_metrics" as const,
   CPL_QUERY_METRICS: "cpl_query_metrics" as const,
 };
+=======
+>>>>>>> 5f5a6a6 (simplify the code)
 export const FPTI_USER_ACTION = {
-  COMMIT: "commit" as const,
-  CONTINUE: "continue" as const,
-};
+  COMMIT: "commit",
+  CONTINUE: "continue",
+} as const;
 export const FPTI_DATA_SOURCE = {
-  PAYMENTS_SDK: "checkout" as const,
-};
+  PAYMENTS_SDK: "checkout",
+} as const;
 export const FPTI_FEED = {
-  PAYMENTS_SDK: "payments_sdk" as const,
-};
+  PAYMENTS_SDK: "payments_sdk",
+} as const;
 export const FPTI_SDK_NAME = {
+<<<<<<< HEAD
   PAYMENTS_SDK: "payments_sdk" as const,
 };
 >>>>>>> b2acffc (feat!: ts-migration)
+=======
+  PAYMENTS_SDK: "payments_sdk",
+} as const;
+>>>>>>> 5f5a6a6 (simplify the code)
