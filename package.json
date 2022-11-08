@@ -10,9 +10,8 @@
   ],
   "scripts": {
     "build": "npm run babel && npm run webpack && npm run build:types",
-    "build:flow": "find ./dist -type f -not -path './node_modules/*' -name '*.d.ts' -exec sh -c 'flowgen --add-flow-header $1 -o ${1%.*.*}.js.flow' _ '{}' \\;",
     "build:tsc": "tsc src/*.ts --outDir ./dist/esm --declaration --emitDeclarationOnly",
-    "build:types": "npm run build:tsc && npm run build:flow",
+    "build:types": "npm run build:tsc",
     "webpack": "babel-node --plugins=transform-es2015-modules-commonjs ./node_modules/.bin/webpack --progress",
     "karma": "cross-env NODE_ENV=test babel-node --plugins=transform-es2015-modules-commonjs ./node_modules/.bin/karma start",
     "babel": "babel src/ --out-dir ./dist/esm/ --extensions .ts,.tsx",
