@@ -45,8 +45,10 @@
   "license": "Apache-2.0",
   "readmeFilename": "README.md",
   "devDependencies": {
-    "@krakenjs/grumbler-scripts": "^7.0.0",
+    "@krakenjs/grumbler-scripts": "^8.0.3",
+    "cross-env": "^7.0.3",
     "flow-bin": "0.129.0",
+    "flow-typed": "^3.8.0",
     "husky": "^8.0.1",
     "lint-staged": "^13.0.3",
     "prettier": "2.7.1"

@@ -1,7 +1,7 @@
 /* @flow */
 /* eslint import/no-nodejs-modules: off */
 
-import { getWebpackConfig } from "@krakenjs/grumbler-scripts/config/webpack.config";
+import { getWebpackConfig } from "@krakenjs/webpack-config-grumbler";
 
 const FILE_NAME = "paypal-sdk-constants";
 const MODULE_NAME = "ppsdkconstants";
