@@ -60,6 +60,7 @@ export type CardEligibility = {|
   branded: ?boolean,
   recommended?: ?boolean,
   installments?: ?boolean,
+  guestEnabled?: ?boolean,
   vendors: CardVendorsEligibility,
 |};
 
@@ -91,5 +92,6 @@ export type FundingEligibilityType = {|
   trustly?: BasicEligibility,
   mercadopago?: BasicEligibility,
   multibanco?: BasicEligibility,
+  satispay?: BasicEligibility,
   paidy?: BasicEligibility,
 |};
