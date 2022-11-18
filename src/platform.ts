@@ -1,4 +1,4 @@
 export const PLATFORM = {
-  DESKTOP: "desktop" as const,
-  MOBILE: "mobile" as const,
-};
+  DESKTOP: "desktop",
+  MOBILE: "mobile",
+} as const;
