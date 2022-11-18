@@ -80,5 +80,5 @@ export type FundingEligibilityType = {
   trustly?: BasicEligibility;
   mercadopago?: BasicEligibility;
   multibanco?: BasicEligibility;
-  satispay?: BasicEligibility,
+  satispay?: BasicEligibility;
 };
