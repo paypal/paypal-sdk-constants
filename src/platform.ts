@@ -1,4 +1,4 @@
-export enum PLATFORM {
-  DESKTOP = "desktop",
-  MOBILE = "mobile",
-}
+export const PLATFORM = {
+  DESKTOP: "desktop" as const,
+  MOBILE: "mobile" as const,
+};
