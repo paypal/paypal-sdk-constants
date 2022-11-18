@@ -1,6 +1,7 @@
 import { COUNTRY } from "./locale";
 import { CURRENCY, INTENT, COMMIT, VAULT } from "./order";
 import { COMPONENTS, DEBUG } from "./params";
+
 export const DEFAULT_COUNTRY = COUNTRY.US;
 export const DEFAULT_CURRENCY = CURRENCY.USD;
 export const DEFAULT_INTENT = INTENT.CAPTURE;
