@@ -24,6 +24,5 @@
   "ts-node": {
     // parse the *.d.ts before running
     "files": true
-  },
-  "extends": "@krakenjs/grumbler-scripts/config/tsconfig.json"
+  }
 }
