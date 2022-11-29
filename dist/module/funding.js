@@ -28,8 +28,7 @@ export var FUNDING = {
   WECHATPAY: "wechatpay",
   MERCADOPAGO: "mercadopago",
   MULTIBANCO: "multibanco",
-  SATISPAY: "satispay",
-  PAIDY: "paidy"
+  SATISPAY: "satispay"
 };
 export var FUNDING_BRAND_LABEL = {
   PAYPAL: "PayPal",
