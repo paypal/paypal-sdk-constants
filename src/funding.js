@@ -29,6 +29,7 @@ export const FUNDING = {
   MERCADOPAGO: ("mercadopago": "mercadopago"),
   MULTIBANCO: ("multibanco": "multibanco"),
   SATISPAY: ("satispay": "satispay"),
+  PAIDY: ("paidy": "paidy"),
 };
 
 export const FUNDING_BRAND_LABEL = {

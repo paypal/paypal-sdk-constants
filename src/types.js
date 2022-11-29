@@ -93,4 +93,5 @@ export type FundingEligibilityType = {|
   mercadopago?: BasicEligibility,
   multibanco?: BasicEligibility,
   satispay?: BasicEligibility,
+  paidy?: BasicEligibility,
 |};
