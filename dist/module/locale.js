@@ -1,6 +1,3 @@
-
-/* eslint max-lines: 0 */
-
 export var COUNTRY = {
   AD: "AD",
   AE: "AE",

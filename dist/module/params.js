@@ -1,5 +1,3 @@
-
-
 export var SDK_PATH = "/sdk/js";
 export var SDK_SETTINGS = {
   NAMESPACE: "data-namespace",

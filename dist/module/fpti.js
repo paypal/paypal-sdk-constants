@@ -1,5 +1,3 @@
-
-
 export var FPTI_KEY = {
   FEED: "feed_name",
   STATE: "state_name",
@@ -53,6 +51,8 @@ export var FPTI_KEY = {
   PAYMENT_FLOW: "payment_flow",
   BUTTON_VERSION: "button_version",
   FI_LIST: "fi_list",
+  FI_ID: "fi_id",
+  PRODUCT: "product",
   CHOSEN_FI_TYPE: "chosen_fi_type",
   SELECTED_FI: "merchant_selected_funding_source",
   POTENTIAL_PAYMENT_METHODS: "potential_payment_methods",

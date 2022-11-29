@@ -1,5 +1,3 @@
-
-
 export var FUNDING = {
   PAYPAL: "paypal",
   VENMO: "venmo",
@@ -28,7 +26,8 @@ export var FUNDING = {
   WECHATPAY: "wechatpay",
   MERCADOPAGO: "mercadopago",
   MULTIBANCO: "multibanco",
-  SATISPAY: "satispay"
+  SATISPAY: "satispay",
+  PAIDY: "paidy"
 };
 export var FUNDING_BRAND_LABEL = {
   PAYPAL: "PayPal",

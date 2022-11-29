@@ -1,5 +1,3 @@
-
-
 export var INTENT = {
   CAPTURE: "capture",
   AUTHORIZE: "authorize",
