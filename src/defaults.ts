@@ -1,5 +1,3 @@
-/* @flow */
-
 import { COUNTRY } from "./locale";
 import { CURRENCY, INTENT, COMMIT, VAULT } from "./order";
 import { COMPONENTS, DEBUG } from "./params";

@@ -1,5 +1,3 @@
-/* @flow */
-
 import { FUNDING } from "./funding";
 
 export const APM_LIST = [
