@@ -1,6 +1,4 @@
-/* eslint import/no-nodejs-modules: off */
-// @ts-ignore
-import { getWebpackConfig } from "@krakenjs/grumbler-scripts/config/webpack.config";
+import { getWebpackConfig } from "@krakenjs/webpack-config-grumbler";
 
 const FILE_NAME = "paypal-sdk-constants";
 const MODULE_NAME = "ppsdkconstants";
@@ -33,4 +31,4 @@ export const WEBPACK_CONFIG_TEST = getWebpackConfig({
   },
 });
 
-export default [WEBPACK_CONFIG, WEBPACK_CONFIG_MIN]; // eslint-disable-line import/no-default-export
+export default [WEBPACK_CONFIG, WEBPACK_CONFIG_MIN];
