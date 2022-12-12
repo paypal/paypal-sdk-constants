@@ -30,6 +30,7 @@ export const FUNDING = {
   MULTIBANCO: ("multibanco": "multibanco"),
   SATISPAY: ("satispay": "satispay"),
   PAIDY: ("paidy": "paidy"),
+  PAYUPONINVOICE: ("payuponinvoice": "payuponinvoice"),
 };
 
 export const FUNDING_BRAND_LABEL = {

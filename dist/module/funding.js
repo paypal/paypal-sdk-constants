@@ -27,7 +27,8 @@ export var FUNDING = {
   MERCADOPAGO: "mercadopago",
   MULTIBANCO: "multibanco",
   SATISPAY: "satispay",
-  PAIDY: "paidy"
+  PAIDY: "paidy",
+  PAYUPONINVOICE: "payuponinvoice"
 };
 export var FUNDING_BRAND_LABEL = {
   PAYPAL: "PayPal",

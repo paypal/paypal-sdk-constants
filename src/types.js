@@ -94,4 +94,5 @@ export type FundingEligibilityType = {|
   multibanco?: BasicEligibility,
   satispay?: BasicEligibility,
   paidy?: BasicEligibility,
+  payuponinvoice?: BasicEligibility,
 |};
