@@ -1,4 +1,3 @@
-/* @flow */
 export var FUNDING = {
   PAYPAL: "paypal",
   VENMO: "venmo",
