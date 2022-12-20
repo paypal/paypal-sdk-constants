@@ -1,3 +1,4 @@
+/* @flow */
 export var FUNDING = {
   PAYPAL: "paypal",
   VENMO: "venmo",
@@ -27,8 +28,7 @@ export var FUNDING = {
   MERCADOPAGO: "mercadopago",
   MULTIBANCO: "multibanco",
   SATISPAY: "satispay",
-  PAIDY: "paidy",
-  PAYUPONINVOICE: "payuponinvoice"
+  PAIDY: "paidy"
 };
 export var FUNDING_BRAND_LABEL = {
   PAYPAL: "PayPal",
