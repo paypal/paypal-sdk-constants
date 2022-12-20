@@ -4,7 +4,7 @@
 [![npm version][version-badge]][package]
 [![apache license][license-badge]][license]
 
-[build-badge]: https://img.shields.io/github/workflow/status/paypal/paypal-sdk-constants/build?logo=github&style=flat-square
+[build-badge]: https://img.shields.io/github/actions/workflow/status/paypal/paypal-sdk-constants/main.yml?branch=main&logo=github&style=flat-square
 [build]: https://github.com/paypal/paypal-sdk-constants/actions?query=workflow%3Abuild
 [version-badge]: https://img.shields.io/npm/v/@paypal/sdk-constants.svg?style=flat-square
 [package]: https://www.npmjs.com/package/@paypal/sdk-constants
