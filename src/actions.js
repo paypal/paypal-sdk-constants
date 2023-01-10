@@ -9,22 +9,22 @@ export const ActionType = {
 
 export type CheckoutAction = {|
   type: ActionType.SAVE,
-  run: function,
+  run: (args: object) => ZalgoPromise<void>,
 |};
 
 export type SubscribeAction = {|
   type: ActionType.SAVE,
-  run: function,
+  run: (args: object) => ZalgoPromise<void>,
 |};
 
 export type SaveAction = {|
   type: ActionType.SAVE,
-  run: function,
+  run: (args: object) => ZalgoPromise<void>,
 |};
 
 export type DeleteAction = {|
   type: ActionType.DELETE,
-  run: function,
+  run: (args: object) => ZalgoPromise<void>,
 |};
 
 export type Actions =
