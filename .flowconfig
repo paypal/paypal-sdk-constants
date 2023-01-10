@@ -4,6 +4,7 @@
 .*/node_modules/npm
 .*/node_modules/eslint-plugin-compat
 .*/node_modules/resolve
+.*/node_modules/@krakenjs/zalgo-promise
 .*/dist/module
 [include]
 [libs]
