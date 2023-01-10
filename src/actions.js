@@ -1,4 +1,5 @@
 /* @flow */
+import { ZalgoPromise } from "@krakenjs/zalgo-promise/src";
 
 export const ActionType = {
   CHECKOUT: ("checkout": "checkout"),
@@ -9,22 +10,22 @@ export const ActionType = {
 
 export type CheckoutAction = {|
   type: ActionType.SAVE,
-  run: (args: object) => ZalgoPromise<void>,
+  run: (args: Object) => ZalgoPromise<void>,
 |};
 
 export type SubscribeAction = {|
   type: ActionType.SAVE,
-  run: (args: object) => ZalgoPromise<void>,
+  run: (args: Object) => ZalgoPromise<void>,
 |};
 
 export type SaveAction = {|
   type: ActionType.SAVE,
-  run: (args: object) => ZalgoPromise<void>,
+  run: (args: Object) => ZalgoPromise<void>,
 |};
 
 export type DeleteAction = {|
   type: ActionType.DELETE,
-  run: (args: object) => ZalgoPromise<void>,
+  run: (args: Object) => ZalgoPromise<void>,
 |};
 
 export type Actions =
