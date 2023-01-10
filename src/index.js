@@ -11,3 +11,4 @@ export * from "./params";
 export * from "./platform";
 export * from "./types";
 export * from "./apm";
+export * from "./actions";
