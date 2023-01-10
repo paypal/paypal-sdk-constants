@@ -54,6 +54,7 @@
     "prettier": "2.7.1"
   },
   "dependencies": {
+    "@krakenjs/zalgo-promise": "^2.0.1",
     "hi-base32": "^0.5.0"
   },
   "lint-staged": {
