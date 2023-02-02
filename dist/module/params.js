@@ -40,7 +40,8 @@ export var SDK_QUERY_KEYS = {
 };
 export var COMPONENTS = {
   BUTTONS: "buttons",
-  HOSTED_FIELDS: "hosted-fields"
+  HOSTED_FIELDS: "hosted-fields",
+  CARD_FIELDS: "card-fields"
 };
 export var DEBUG = {
   TRUE: true,
