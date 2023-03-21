@@ -87,6 +87,7 @@ export type FundingEligibilityType = {|
   boletobancario?: BasicEligibility,
   oxxo?: BasicEligibility,
   trustly?: BasicEligibility,
+  mercadopago?: BasicEligibility,
   multibanco?: BasicEligibility,
   satispay?: BasicEligibility,
   paidy?: BasicEligibility,

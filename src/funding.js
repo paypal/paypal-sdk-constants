@@ -23,6 +23,7 @@ export const FUNDING = {
   BOLETO: ("boleto": "boleto"),
   BOLETOBANCARIO: ("boletobancario": "boletobancario"),
   WECHATPAY: ("wechatpay": "wechatpay"),
+  MERCADOPAGO: ("mercadopago": "mercadopago"),
   MULTIBANCO: ("multibanco": "multibanco"),
   SATISPAY: ("satispay": "satispay"),
   PAIDY: ("paidy": "paidy"),
