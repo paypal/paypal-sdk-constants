@@ -1,6 +1,7 @@
 /* @flow */
 
 export const FUNDING = {
+PAYPAL2: ('paypal2': 'paypal2'),
   PAYPAL: ("paypal": "paypal"),
   VENMO: ("venmo": "venmo"),
   APPLEPAY: ("applepay": "applepay"),
