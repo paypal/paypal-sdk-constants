@@ -22,6 +22,10 @@ export const FPTI_KEY = {
   ERROR_CODE: ("ext_error_code": "ext_error_code"),
   ERROR_DESC: ("ext_error_desc": "ext_error_desc"),
   PAGE_LOAD_TIME: ("page_load_time": "page_load_time"),
+  EXPERIMENT_EXPERIENCE:
+    ("experimentation_experience": "experimentation_experience"),
+  EXPERIMENT_TREATMENT:
+    ("experimentation_treatment": "experimentation_treatment"),
   EXPERIMENT_NAME: ("pxp_exp_id": "pxp_exp_id"),
   TREATMENT_NAME: ("pxp_trtmnt_id": "pxp_trtmnt_id"),
   TRANSITION_TIME: ("transition_time": "transition_time"),
