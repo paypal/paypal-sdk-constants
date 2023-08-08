@@ -20,6 +20,8 @@ export var FPTI_KEY = {
   ERROR_CODE: "ext_error_code",
   ERROR_DESC: "ext_error_desc",
   PAGE_LOAD_TIME: "page_load_time",
+  EXPERIMENT_EXPERIENCE: "experimentation_experience",
+  EXPERIMENT_TREATMENT: "experimentation_treatment",
   EXPERIMENT_NAME: "pxp_exp_id",
   TREATMENT_NAME: "pxp_trtmnt_id",
   TRANSITION_TIME: "transition_time",
