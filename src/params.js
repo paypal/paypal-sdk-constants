@@ -88,3 +88,7 @@ export const PAGE_TYPES = {
 };
 
 export const MERCHANT_ID_MAX = 10;
+
+export const DISPLAY_ONLY_VALUES = {
+  VAULTABLE: ("vaultable": "vaultable"),
+};
