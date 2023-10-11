@@ -67,3 +67,6 @@ export var PAGE_TYPES = {
   MINI_CART: "mini-cart"
 };
 export var MERCHANT_ID_MAX = 10;
+export var DISPLAY_ONLY_VALUES = {
+  VAULTABLE: "vaultable"
+};
