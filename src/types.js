@@ -12,6 +12,7 @@ export type VaultedInstrument = {|
 export type BasicEligibility = {|
   eligible: ?boolean,
   branded: ?boolean,
+  vaultable?: ?boolean,
   recommended?: ?boolean,
 |};
 
@@ -31,6 +32,7 @@ export type FundingProductEligibility = {|
 export type PayLaterEligibility = {|
   eligible: ?boolean,
   recommended?: ?boolean,
+  vaultable?: ?boolean,
   products?: {|
     payIn3: FundingProductEligibility,
     payIn4: FundingProductEligibility,
