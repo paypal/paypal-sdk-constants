@@ -21,6 +21,7 @@ export const SDK_SETTINGS = {
   USER_EXPERIENCE_FLOW:
     ("data-user-experience-flow": "data-user-experience-flow"),
   POPUPS_DISABLED: ("data-popups-disabled": "data-popups-disabled"),
+  SDK_TOKEN: ("data-sdk-client-token": "data-sdk-client-token"),
 };
 
 export const SDK_QUERY_KEYS = {
