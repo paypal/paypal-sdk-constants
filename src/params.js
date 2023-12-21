@@ -56,8 +56,9 @@ export const SDK_QUERY_KEYS = {
 
 export const COMPONENTS = {
   BUTTONS: ("buttons": "buttons"),
-  HOSTED_FIELDS: ("hosted-fields": "hosted-fields"),
   CARD_FIELDS: ("card-fields": "card-fields"),
+  HOSTED_BUTTONS: ("hosted-buttons": "hosted-buttons"),
+  HOSTED_FIELDS: ("hosted-fields": "hosted-fields"),
 };
 
 export const DEBUG = {
