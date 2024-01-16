@@ -43,6 +43,7 @@ export const CARD = {
   ELO: ("elo": "elo"),
   JCB: ("jcb": "jcb"),
   CUP: ("cup": "cup"),
+  DINERS: ("diners": "diners"),
 };
 
 export const WALLET_INSTRUMENT = {
