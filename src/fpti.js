@@ -75,6 +75,7 @@ export const FPTI_KEY = {
   CPL_COMP_METRICS: ("cpl_comp_metrics": "cpl_comp_metrics"),
   CPL_CHUNK_METRICS: ("cpl_chunk_metrics": "cpl_chunk_metrics"),
   CPL_QUERY_METRICS: ("cpl_query_metrics": "cpl_query_metrics"),
+  RECOMMENDED_PAYMENT: ("recommended_payment": "recommended_payment"),
 };
 
 export const FPTI_USER_ACTION = {
