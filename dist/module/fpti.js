@@ -67,7 +67,8 @@ export var FPTI_KEY = {
   FIELDS_COMPONENT_SESSION_ID: "fields_component_session_id",
   CPL_COMP_METRICS: "cpl_comp_metrics",
   CPL_CHUNK_METRICS: "cpl_chunk_metrics",
-  CPL_QUERY_METRICS: "cpl_query_metrics"
+  CPL_QUERY_METRICS: "cpl_query_metrics",
+  RECOMMENDED_PAYMENT: "recommended_payment"
 };
 export var FPTI_USER_ACTION = {
   COMMIT: "commit",
