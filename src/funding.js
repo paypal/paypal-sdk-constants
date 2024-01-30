@@ -44,6 +44,7 @@ export const CARD = {
   JCB: ("jcb": "jcb"),
   CUP: ("cup": "cup"),
   DINERS: ("diners": "diners"),
+  MAESTRO: ("maestro": "maestro"),
 };
 
 export const WALLET_INSTRUMENT = {
