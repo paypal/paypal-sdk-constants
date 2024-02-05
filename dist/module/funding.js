@@ -39,7 +39,8 @@ export var CARD = {
   ELO: "elo",
   JCB: "jcb",
   CUP: "cup",
-  DINERS: "diners"
+  DINERS: "diners",
+  MAESTRO: "maestro"
 };
 export var WALLET_INSTRUMENT = {
   BALANCE: "balance",
