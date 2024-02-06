@@ -55,6 +55,8 @@ export type CardVendorsEligibility = {|
   elo?: CardVendorEligibility,
   jcb?: CardVendorEligibility,
   cup?: CardVendorEligibility,
+  maestro?: CardVendorEligibility,
+  diners?: CardVendorEligibility,
 |};
 
 export type CardEligibility = {|
