@@ -1,5 +1,10 @@
 /* @flow */
 
+export const SDK_INTEGRATION_SOURCES = {
+  PAYPAL_JS: "paypal-js",
+  REACT_PAYPAL_JS: "react-paypal-js",
+};
+
 export const SDK_PATH = "/sdk/js";
 
 export const SDK_SETTINGS = {
