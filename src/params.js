@@ -1,6 +1,12 @@
 /* @flow */
 
-export const SDK_PATH = "/sdk/js";
+export const SDK_INTEGRATION_SOURCES = {
+  PAYPAL_JS: ("paypal-js": "paypal-js"),
+  REACT_PAYPAL_JS: ("react-paypal-js": "react-paypal-js"),
+  RAW_SCRIPT: ("raw-script": "raw-script"),
+};
+
+export const SDK_PATH = ("/sdk/js": "/sdk/js");
 
 export const SDK_SETTINGS = {
   NAMESPACE: ("data-namespace": "data-namespace"),
