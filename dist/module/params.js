@@ -1,3 +1,8 @@
+export var SDK_INTEGRATION_SOURCES = {
+  PAYPAL_JS: "paypal-js",
+  REACT_PAYPAL_JS: "react-paypal-js",
+  RAW_SCRIPT: "raw-script"
+};
 export var SDK_PATH = "/sdk/js";
 export var SDK_SETTINGS = {
   NAMESPACE: "data-namespace",
