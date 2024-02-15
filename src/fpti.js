@@ -37,6 +37,7 @@ export const FPTI_KEY = {
   HOSTED_BUTTON_ID: ("hosted_button_id": "hosted_button_id"),
   INTEGRATION_IDENTIFIER: ("integration_identifier": "integration_identifier"),
   IS_VAULT: ("is_vault": "is_vault"),
+  JS_SDK_LIBRARY: ("js_sdk_library": "js_sdk_library"),
   LOCALE: ("locale": "locale"),
   MERCHANT_DOMAIN: ("merchant_domain": "merchant_domain"),
   MOBILE_APP_VERSION: ("mobile_app_version": "mobile_app_version"),
