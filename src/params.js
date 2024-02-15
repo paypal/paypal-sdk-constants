@@ -9,6 +9,7 @@ export const JS_SDK_LIBRARIES = {
 export const SDK_PATH = ("/sdk/js": "/sdk/js");
 
 export const SDK_SETTINGS = {
+  JS_SDK_LIBRARY: ("data-js-sdk-library": "data-js-sdk-library"),
   NAMESPACE: ("data-namespace": "data-namespace"),
   CLIENT_TOKEN: ("data-client-token": "data-client-token"),
   MERCHANT_ID: ("data-merchant-id": "data-merchant-id"),
