@@ -95,4 +95,7 @@ export type FundingEligibilityType = {|
   multibanco?: BasicEligibility,
   satispay?: BasicEligibility,
   paidy?: BasicEligibility,
+  // deprecated APMs will be removed soon
+  zimpler?: BasicEligibility,
+  maxima?: BasicEligibility,
 |};

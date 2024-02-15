@@ -21,4 +21,7 @@ export const APM_LIST = [
   FUNDING.MULTIBANCO,
   FUNDING.SATISPAY,
   FUNDING.PAIDY,
+  // deprecated APMs will be removed soon
+  FUNDING.MAXIMA,
+  FUNDING.ZIMPLER,
 ];

@@ -27,6 +27,9 @@ export const FUNDING = {
   MULTIBANCO: ("multibanco": "multibanco"),
   SATISPAY: ("satispay": "satispay"),
   PAIDY: ("paidy": "paidy"),
+  // deprecated APMs will be removed soon
+  ZIMPLER: ("zimpler": "zimpler"),
+  MAXIMA: ("maxima": "maxima"),
 };
 
 export const FUNDING_BRAND_LABEL = {
