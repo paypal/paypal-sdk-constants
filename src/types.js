@@ -55,6 +55,8 @@ export type CardVendorsEligibility = {|
   elo?: CardVendorEligibility,
   jcb?: CardVendorEligibility,
   cup?: CardVendorEligibility,
+  maestro?: CardVendorEligibility,
+  diners?: CardVendorEligibility,
 |};
 
 export type CardEligibility = {|
@@ -93,4 +95,7 @@ export type FundingEligibilityType = {|
   multibanco?: BasicEligibility,
   satispay?: BasicEligibility,
   paidy?: BasicEligibility,
+  // deprecated APMs will be removed soon
+  zimpler?: BasicEligibility,
+  maxima?: BasicEligibility,
 |};
