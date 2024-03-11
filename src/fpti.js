@@ -2,6 +2,13 @@
 
 export const FPTI_KEY = {
   BUTTON_LAYOUT: ("button_layout": "button_layout"),
+  BUTTON_MESSAGE_COLOR: ("button_message_color": "button_message_color"),
+  BUTTON_MESSAGE_ALIGN: ("button_message_align": "button_message_align"),
+  BUTTON_MESSAGE_POSITION:
+    ("button_message_position": "button_message_position"),
+  BUTTON_MESSAGE_OFFER_TYPE:
+    ("button_message_offer_type": "button_message_offer_type"),
+  BUTTON_MESSAGE_TYPE: ("button_message_type": "button_message_type"),
   BUTTON_SESSION_UID: ("button_session_id": "button_session_id"),
   BUTTON_SOURCE: ("button_source": "button_source"),
   BUTTON_TYPE: ("button_type": "button_type"),
