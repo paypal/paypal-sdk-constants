@@ -1,33 +1,34 @@
 /* @flow */
 
-export const SDK_INTEGRATION_SOURCES = {
+export const JS_SDK_LIBRARIES = {
   PAYPAL_JS: ("paypal-js": "paypal-js"),
-  REACT_PAYPAL_JS: ("react-paypal-js": "react-paypal-js"),
   RAW_SCRIPT: ("raw-script": "raw-script"),
+  REACT_PAYPAL_JS: ("react-paypal-js": "react-paypal-js"),
 };
 
 export const SDK_PATH = ("/sdk/js": "/sdk/js");
 
 export const SDK_SETTINGS = {
-  NAMESPACE: ("data-namespace": "data-namespace"),
-  CLIENT_TOKEN: ("data-client-token": "data-client-token"),
-  MERCHANT_ID: ("data-merchant-id": "data-merchant-id"),
-  PARTNER_ATTRIBUTION_ID:
-    ("data-partner-attribution-id": "data-partner-attribution-id"),
-  STAGE_HOST: ("data-stage-host": "data-stage-host"),
+  AMOUNT: ("data-amount": "data-amount"),
   API_STAGE_HOST: ("data-api-stage-host": "data-api-stage-host"),
+  CLIENT_METADATA_ID: ("data-client-metadata-id": "data-client-metadata-id"),
+  CLIENT_TOKEN: ("data-client-token": "data-client-token"),
   CSP_NONCE: ("data-csp-nonce": "data-csp-nonce"),
   ENABLE_3DS: ("data-enable-3ds": "data-enable-3ds"),
+  JS_SDK_LIBRARY: ("data-js-sdk-library": "data-js-sdk-library"),
+  MERCHANT_ID: ("data-merchant-id": "data-merchant-id"),
+  NAMESPACE: ("data-namespace": "data-namespace"),
+  PAGE_TYPE: ("data-page-type": "data-page-type"),
+  PARTNER_ATTRIBUTION_ID:
+    ("data-partner-attribution-id": "data-partner-attribution-id"),
+  POPUPS_DISABLED: ("data-popups-disabled": "data-popups-disabled"),
   SDK_INTEGRATION_SOURCE:
     ("data-sdk-integration-source": "data-sdk-integration-source"),
-  USER_ID_TOKEN: ("data-user-id-token": "data-user-id-token"),
-  AMOUNT: ("data-amount": "data-amount"),
-  CLIENT_METADATA_ID: ("data-client-metadata-id": "data-client-metadata-id"),
-  PAGE_TYPE: ("data-page-type": "data-page-type"),
+  SDK_TOKEN: ("data-sdk-client-token": "data-sdk-client-token"),
+  STAGE_HOST: ("data-stage-host": "data-stage-host"),
   USER_EXPERIENCE_FLOW:
     ("data-user-experience-flow": "data-user-experience-flow"),
-  POPUPS_DISABLED: ("data-popups-disabled": "data-popups-disabled"),
-  SDK_TOKEN: ("data-sdk-client-token": "data-sdk-client-token"),
+  USER_ID_TOKEN: ("data-user-id-token": "data-user-id-token"),
 };
 
 export const SDK_QUERY_KEYS = {
