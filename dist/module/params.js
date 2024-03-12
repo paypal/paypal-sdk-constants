@@ -1,26 +1,27 @@
-export var SDK_INTEGRATION_SOURCES = {
+export var JS_SDK_LIBRARIES = {
   PAYPAL_JS: "paypal-js",
-  REACT_PAYPAL_JS: "react-paypal-js",
-  RAW_SCRIPT: "raw-script"
+  RAW_SCRIPT: "raw-script",
+  REACT_PAYPAL_JS: "react-paypal-js"
 };
 export var SDK_PATH = "/sdk/js";
 export var SDK_SETTINGS = {
-  NAMESPACE: "data-namespace",
-  CLIENT_TOKEN: "data-client-token",
-  MERCHANT_ID: "data-merchant-id",
-  PARTNER_ATTRIBUTION_ID: "data-partner-attribution-id",
-  STAGE_HOST: "data-stage-host",
+  AMOUNT: "data-amount",
   API_STAGE_HOST: "data-api-stage-host",
+  CLIENT_METADATA_ID: "data-client-metadata-id",
+  CLIENT_TOKEN: "data-client-token",
   CSP_NONCE: "data-csp-nonce",
   ENABLE_3DS: "data-enable-3ds",
-  SDK_INTEGRATION_SOURCE: "data-sdk-integration-source",
-  USER_ID_TOKEN: "data-user-id-token",
-  AMOUNT: "data-amount",
-  CLIENT_METADATA_ID: "data-client-metadata-id",
+  JS_SDK_LIBRARY: "data-js-sdk-library",
+  MERCHANT_ID: "data-merchant-id",
+  NAMESPACE: "data-namespace",
   PAGE_TYPE: "data-page-type",
-  USER_EXPERIENCE_FLOW: "data-user-experience-flow",
+  PARTNER_ATTRIBUTION_ID: "data-partner-attribution-id",
   POPUPS_DISABLED: "data-popups-disabled",
-  SDK_TOKEN: "data-sdk-client-token"
+  SDK_INTEGRATION_SOURCE: "data-sdk-integration-source",
+  SDK_TOKEN: "data-sdk-client-token",
+  STAGE_HOST: "data-stage-host",
+  USER_EXPERIENCE_FLOW: "data-user-experience-flow",
+  USER_ID_TOKEN: "data-user-id-token"
 };
 export var SDK_QUERY_KEYS = {
   COMPONENTS: "components",
