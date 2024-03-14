@@ -2,10 +2,14 @@
 
 export const FPTI_KEY = {
   BUTTON_LAYOUT: ("button_layout": "button_layout"),
+  BUTTON_MESSAGE_CREDIT_PRODUCT_IDENTIFIER:
+    ("button_message_credit_product_identifier": "button_message_credit_product_identifier"),
   BUTTON_MESSAGE_COLOR: ("button_message_color": "button_message_color"),
   BUTTON_MESSAGE_ALIGN: ("button_message_align": "button_message_align"),
   BUTTON_MESSAGE_POSITION:
     ("button_message_position": "button_message_position"),
+  BUTTON_MESSAGE_OFFER_COUNTRY:
+    ("button_message_offer_country": "button_message_offer_country"),
   BUTTON_MESSAGE_OFFER_TYPE:
     ("button_message_offer_type": "button_message_offer_type"),
   BUTTON_MESSAGE_TYPE: ("button_message_type": "button_message_type"),
