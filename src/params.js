@@ -1,11 +1,5 @@
 /* @flow */
 
-export const JS_SDK_LIBRARIES = {
-  PAYPAL_JS: ("paypal-js": "paypal-js"),
-  RAW_SCRIPT: ("raw-script": "raw-script"),
-  REACT_PAYPAL_JS: ("react-paypal-js": "react-paypal-js"),
-};
-
 export const SDK_PATH = ("/sdk/js": "/sdk/js");
 
 export const SDK_SETTINGS = {
