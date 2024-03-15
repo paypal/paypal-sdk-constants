@@ -1,8 +1,3 @@
-export var JS_SDK_LIBRARIES = {
-  PAYPAL_JS: "paypal-js",
-  RAW_SCRIPT: "raw-script",
-  REACT_PAYPAL_JS: "react-paypal-js"
-};
 export var SDK_PATH = "/sdk/js";
 export var SDK_SETTINGS = {
   AMOUNT: "data-amount",
