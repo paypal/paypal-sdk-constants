@@ -48,6 +48,7 @@ export const CARD = {
   CUP: ("cup": "cup"),
   DINERS: ("diners": "diners"),
   MAESTRO: ("maestro": "maestro"),
+  EFTPOS: ("eftpos": "eftpos"),
 };
 
 export const WALLET_INSTRUMENT = {
