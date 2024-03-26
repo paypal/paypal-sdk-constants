@@ -6,6 +6,8 @@ export const FPTI_KEY = {
   BUTTON_MESSAGE_CREDIT_PRODUCT_IDENTIFIER:
     ("button_message_credit_product_identifier": "button_message_credit_product_identifier"),
   BUTTON_MESSAGE_COLOR: ("button_message_color": "button_message_color"),
+  BUTTON_MESSAGE_CURRENCY:
+    ("button_message_currency": "button_message_currency"),
   BUTTON_MESSAGE_ALIGN: ("button_message_align": "button_message_align"),
   BUTTON_MESSAGE_POSITION:
     ("button_message_position": "button_message_position"),
