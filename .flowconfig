@@ -6,6 +6,7 @@
 .*/node_modules/resolve
 .*/node_modules/es-abstract
 .*/dist/module
+.*/node_modules/es-abstract
 [include]
 [libs]
 flow-typed
