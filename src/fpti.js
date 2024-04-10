@@ -54,6 +54,7 @@ export const FPTI_KEY = {
   JS_SDK_LIBRARY: ("js_sdk_library": "js_sdk_library"),
   LOCALE: ("locale": "locale"),
   MERCHANT_DOMAIN: ("merchant_domain": "merchant_domain"),
+  MERCHANT_ID: ("merchant_id": "merchant_id"),
   MOBILE_APP_VERSION: ("mobile_app_version": "mobile_app_version"),
   MOBILE_BUNDLE_IDENTIFIER: ("mapv": "mapv"),
   OPTION_SELECTED: ("optsel": "optsel"),
