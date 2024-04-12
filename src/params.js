@@ -1,6 +1,7 @@
 /* @flow */
 
 export const SDK_PATH = ("/sdk/js": "/sdk/js");
+export const WEB_SDK_PATH = ("/web-sdk": "/web-sdk");
 
 export const SDK_SETTINGS = {
   AMOUNT: ("data-amount": "data-amount"),
