@@ -14,10 +14,12 @@ export var SDK_SETTINGS = {
   POPUPS_DISABLED: "data-popups-disabled",
   SDK_INTEGRATION_SOURCE: "data-sdk-integration-source",
   SDK_TOKEN: "data-sdk-client-token",
+  SHOPPER_SESSION_ID: "data-shopper-session-id",
   STAGE_HOST: "data-stage-host",
   USER_EXPERIENCE_FLOW: "data-user-experience-flow",
   USER_ID_TOKEN: "data-user-id-token"
 };
+export var SDK_DATA_ATTRIBUTES = SDK_SETTINGS;
 export var SDK_QUERY_KEYS = {
   COMPONENTS: "components",
   ENV: "env",
