@@ -1,6 +1,7 @@
 /* @flow */
 
 export const SDK_PATH = ("/sdk/js": "/sdk/js");
+export const WEB_SDK_BRIDGE_PATH = ("/web-sdk/v6/bridge": "/web-sdk/v6/bridge");
 
 export const SDK_SETTINGS = {
   AMOUNT: ("data-amount": "data-amount"),
