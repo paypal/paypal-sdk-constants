@@ -19,11 +19,16 @@ export const SDK_SETTINGS = {
   SDK_INTEGRATION_SOURCE:
     ("data-sdk-integration-source": "data-sdk-integration-source"),
   SDK_TOKEN: ("data-sdk-client-token": "data-sdk-client-token"),
+  SHOPPER_SESSION_ID: ("data-shopper-session-id": "data-shopper-session-id"),
   STAGE_HOST: ("data-stage-host": "data-stage-host"),
   USER_EXPERIENCE_FLOW:
     ("data-user-experience-flow": "data-user-experience-flow"),
   USER_ID_TOKEN: ("data-user-id-token": "data-user-id-token"),
 };
+
+// Why do we call these settings instead of what they are, data attributes?
+// all other constants in this file are named after what they are
+export const SDK_DATA_ATTRIBUTES = SDK_SETTINGS;
 
 export const SDK_QUERY_KEYS = {
   COMPONENTS: ("components": "components"),
