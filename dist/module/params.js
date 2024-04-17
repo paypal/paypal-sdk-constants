@@ -1,4 +1,5 @@
 export var SDK_PATH = "/sdk/js";
+export var WEB_SDK_BRIDGE_PATH = "/web-sdk/v6/bridge";
 export var SDK_SETTINGS = {
   AMOUNT: "data-amount",
   API_STAGE_HOST: "data-api-stage-host",
