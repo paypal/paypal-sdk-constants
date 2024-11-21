@@ -47,7 +47,7 @@
   "devDependencies": {
     "@krakenjs/grumbler-scripts": "^8.0.5",
     "cross-env": "^7.0.3",
-    "flow-bin": "0.129.0",
+    "flow-bin": "0.214.0",
     "flow-typed": "^3.8.0",
     "husky": "^8.0.1",
     "lint-staged": "^13.0.3",
