@@ -14,6 +14,7 @@ export var FPTI_KEY = {
   BUTTON_TYPE: "button_type",
   BUTTON_VERSION: "button_version",
   BUYER_COUNTRY: "buyer_cntry",
+  CHECKOUT_APP: "checkout_app",
   CHOSEN_FI_TYPE: "chosen_fi_type",
   CHOSEN_FUNDING: "selected_payment_method",
   CLIENT_ID: "client_id",
