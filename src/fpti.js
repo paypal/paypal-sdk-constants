@@ -93,6 +93,11 @@ export const FPTI_KEY = {
   USER_AGENT: ("user_agent": "user_agent"),
   USER_IDENTITY_METHOD: ("user_identity_method": "user_identity_method"),
   VERSION: ("checkoutjs_version": "checkoutjs_version"),
+  AVAILABLE_PAYMENT_NETWORKS:
+    ("available_payment_networks": "available_payment_networks"),
+  SELECTED_CARD_TYPE: ("selected_card_type": "selected_card_type"),
+  CURRENCY: ("currency": "currency"),
+  AMOUNT: ("amount": "amount"),
 };
 
 export const FPTI_USER_ACTION = {
