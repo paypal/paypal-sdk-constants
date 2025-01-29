@@ -80,7 +80,11 @@ export var FPTI_KEY = {
   USER_ACTION: "user_action",
   USER_AGENT: "user_agent",
   USER_IDENTITY_METHOD: "user_identity_method",
-  VERSION: "checkoutjs_version"
+  VERSION: "checkoutjs_version",
+  AVAILABLE_PAYMENT_NETWORKS: "available_payment_networks",
+  SELECTED_CARD_TYPE: "selected_card_type",
+  CURRENCY: "currency",
+  AMOUNT: "amount"
 };
 export var FPTI_USER_ACTION = {
   COMMIT: "commit",
