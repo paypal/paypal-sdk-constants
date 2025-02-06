@@ -44,7 +44,7 @@ export var CARD = {
   DINERS: "diners",
   MAESTRO: "maestro",
   EFTPOS: "eftpos",
-  CB_NATIONALE: "cb-nationale"
+  CB_NATIONALE: "cb_nationale"
 };
 export var WALLET_INSTRUMENT = {
   BALANCE: "balance",
