@@ -49,7 +49,7 @@ export const CARD = {
   DINERS: ("diners": "diners"),
   MAESTRO: ("maestro": "maestro"),
   EFTPOS: ("eftpos": "eftpos"),
-  CB_NATIONALE: ("cb-nationale": "cb-nationale"),
+  CB_NATIONALE: ("cb_nationale": "cb_nationale"),
 };
 
 export const WALLET_INSTRUMENT = {
