@@ -47,6 +47,7 @@ export const FPTI_KEY = {
   FI_LIST: ("fi_list": "fi_list"),
   FIELDS_COMPONENT_SESSION_ID:
     ("fields_component_session_id": "fields_component_session_id"),
+  FLOW: ("flow": "flow"),
   FUNDING_COUNT: ("eligible_payment_count": "eligible_payment_count"),
   FUNDING_LIST: ("eligible_payment_methods": "eligible_payment_methods"),
   HOSTED_BUTTON_ID: ("hosted_button_id": "hosted_button_id"),
@@ -82,6 +83,7 @@ export const FPTI_KEY = {
     ("merchant_selected_funding_source": "merchant_selected_funding_source"),
   SELLER_ID: ("seller_id": "seller_id"),
   SESSION_UID: ("page_session_id": "page_session_id"),
+  SPACE_KEY: ("space_key": "space_key"),
   STATE: ("state_name": "state_name"),
   STICKINESS_ID: ("stickiness_id": "stickiness_id"),
   TIMESTAMP: ("t": "t"),
