@@ -23,6 +23,7 @@ export const FPTI_KEY = {
   BUYER_COUNTRY: ("buyer_cntry": "buyer_cntry"),
   CHECKOUT_APP: ("checkout_app": "checkout_app"),
   CHOSEN_FI_TYPE: ("chosen_fi_type": "chosen_fi_type"),
+  CHOSEN_FI_ID: ("chosen_fi_id": "chosen_fi_id"),
   CHOSEN_FUNDING: ("selected_payment_method": "selected_payment_method"),
   CLIENT_ID: ("client_id": "client_id"),
   CONTEXT_CORRID: ("context_correlation_id": "context_correlation_id"),
