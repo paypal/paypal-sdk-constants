@@ -23,6 +23,7 @@ export const FPTI_KEY = {
   BUYER_COUNTRY: ("buyer_cntry": "buyer_cntry"),
   CHECKOUT_APP: ("checkout_app": "checkout_app"),
   CHOSEN_FI_TYPE: ("chosen_fi_type": "chosen_fi_type"),
+  CHOSEN_FI_ID: ("chosen_fi_id": "chosen_fi_id"),
   CHOSEN_FUNDING: ("selected_payment_method": "selected_payment_method"),
   CLIENT_ID: ("client_id": "client_id"),
   CONTEXT_CORRID: ("context_correlation_id": "context_correlation_id"),
@@ -83,6 +84,8 @@ export const FPTI_KEY = {
     ("merchant_selected_funding_source": "merchant_selected_funding_source"),
   SELLER_ID: ("seller_id": "seller_id"),
   SESSION_UID: ("page_session_id": "page_session_id"),
+  SMART_WALLET_INSTRUMENT_TYPES:
+    ("smart_wallet_instrument_types": "smart_wallet_instrument_types"),
   SPACE_KEY: ("space_key": "space_key"),
   STATE: ("state_name": "state_name"),
   STICKINESS_ID: ("stickiness_id": "stickiness_id"),
