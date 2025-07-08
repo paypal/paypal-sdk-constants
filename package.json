@@ -10,7 +10,7 @@
     "flow": "flow",
     "karma": "cross-env NODE_ENV=test babel-node --plugins=transform-es2015-modules-commonjs ./node_modules/.bin/karma start",
     "babel": "babel src/ --out-dir dist/module",
-    "webpack": "babel-node ./node_modules/.bin/webpack --progress",
+    "webpack": "babel-node --plugins=transform-es2015-modules-commonjs ./node_modules/.bin/webpack --progress",
     "format": "prettier --write --ignore-unknown .",
     "format:check": "prettier --check .",
     "test": "npm run format:check && npm run lint && npm run flow",
