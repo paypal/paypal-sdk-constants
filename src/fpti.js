@@ -84,6 +84,7 @@ export const FPTI_KEY = {
     ("merchant_selected_funding_source": "merchant_selected_funding_source"),
   SELLER_ID: ("seller_id": "seller_id"),
   SESSION_UID: ("page_session_id": "page_session_id"),
+  SHOPPER_SESSION_ID: ("data_shopper_session_id": "data_shopper_session_id"),
   SMART_WALLET_INSTRUMENT_TYPES:
     ("smart_wallet_instrument_types": "smart_wallet_instrument_types"),
   SPACE_KEY: ("space_key": "space_key"),
