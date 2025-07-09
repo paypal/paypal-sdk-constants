@@ -72,6 +72,7 @@ export var FPTI_KEY = {
   SELECTED_FI: "merchant_selected_funding_source",
   SELLER_ID: "seller_id",
   SESSION_UID: "page_session_id",
+  SHOPPER_SESSION_ID: "data_shopper_session_id",
   SMART_WALLET_INSTRUMENT_TYPES: "smart_wallet_instrument_types",
   SPACE_KEY: "space_key",
   STATE: "state_name",
