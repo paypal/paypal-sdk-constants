@@ -51,6 +51,7 @@ export const FPTI_KEY = {
   FLOW: ("flow": "flow"),
   FUNDING_COUNT: ("eligible_payment_count": "eligible_payment_count"),
   FUNDING_LIST: ("eligible_payment_methods": "eligible_payment_methods"),
+  GLOBAL_SESSION_UID: ("global_session_id": "global_session_id"),
   HOSTED_BUTTON_ID: ("hosted_button_id": "hosted_button_id"),
   INTEGRATION_IDENTIFIER: ("integration_identifier": "integration_identifier"),
   IS_VAULT: ("is_vault": "is_vault"),
