@@ -105,6 +105,8 @@ export const FPTI_KEY = {
   SELECTED_CARD_TYPE: ("selected_card_type": "selected_card_type"),
   CURRENCY: ("currency": "currency"),
   AMOUNT: ("amount": "amount"),
+  USER_ACTIVATION_IS_ACTIVE:
+    ("usr_activation_is_active", "usr_activation_is_active"),
 };
 
 export const FPTI_USER_ACTION = {
