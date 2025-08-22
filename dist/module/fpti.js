@@ -90,7 +90,8 @@ export var FPTI_KEY = {
   AVAILABLE_PAYMENT_NETWORKS: "available_payment_networks",
   SELECTED_CARD_TYPE: "selected_card_type",
   CURRENCY: "currency",
-  AMOUNT: "amount"
+  AMOUNT: "amount",
+  USER_ACTIVATION_IS_ACTIVE: ("usr_activation_is_active", "usr_activation_is_active")
 };
 export var FPTI_USER_ACTION = {
   COMMIT: "commit",
