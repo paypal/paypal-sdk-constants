@@ -34,6 +34,7 @@ export const FUNDING = {
 
 export const FUNDING_BRAND_LABEL = {
   PAYPAL: ("PayPal": "PayPal"),
+  PAYWITH: ("Pay with": "Pay with"),
   CREDIT: ("PayPal Credit": "PayPal Credit"),
 };
 
