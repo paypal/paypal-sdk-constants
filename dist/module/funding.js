@@ -29,9 +29,10 @@ export var FUNDING = {
   MAXIMA: "maxima"
 };
 export var FUNDING_BRAND_LABEL = {
-  PAYPAL: "PayPal",
+  PAYPAL: "Pay",
   CREDIT: "PayPal Credit"
 };
+console.log("LOCAL SDK CONSTANTS LOADED:", FUNDING_BRAND_LABEL);
 export var CARD = {
   VISA: "visa",
   MASTERCARD: "mastercard",

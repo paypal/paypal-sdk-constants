@@ -7,6 +7,7 @@
 .*/node_modules/es-abstract
 .*/dist/module
 .*/node_modules/es-abstract
+.*/webpack.config.js
 [include]
 [libs]
 flow-typed
