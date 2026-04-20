@@ -39,6 +39,7 @@ export const SDK_QUERY_KEYS = {
   CACHEBUST: ("cachebust": "cachebust"),
 
   CLIENT_ID: ("client-id": "client-id"),
+  HOSTED_BUTTON_ID: ("hosted-button-id": "hosted-button-id"),
   MERCHANT_ID: ("merchant-id": "merchant-id"),
 
   LOCALE: ("locale": "locale"),
