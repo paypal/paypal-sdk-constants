@@ -1,6 +1,6 @@
 {
   "name": "@paypal/sdk-constants",
-  "version": "1.0.158-donatebcdc.1",
+  "version": "1.0.158",
   "description": "Utilities.",
   "main": "index.js",
   "scripts": {
