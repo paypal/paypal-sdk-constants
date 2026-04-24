@@ -20,8 +20,17 @@ npm run build;
 git add dist;
 git commit -m "Dist" || echo "Nothing to distribute";
 
-npm version patch
+VERSION=$(node -p "require('./package.json').version")
 
-git push;
-git push --tags;
-npm publish;
+if echo "$VERSION" | grep -q "-"; then
+    echo "Publishing prerelease version $VERSION with alpha tag";
+    git tag "v$VERSION" || echo "Tag already exists";
+    git push;
+    git push --tags;
+    npm publish --tag alpha;
+else
+    npm version patch;
+    git push;
+    git push --tags;
+    npm publish;
+fi

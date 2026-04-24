@@ -27,6 +27,7 @@ export var SDK_QUERY_KEYS = {
   DEBUG: "debug",
   CACHEBUST: "cachebust",
   CLIENT_ID: "client-id",
+  HOSTED_BUTTON_ID: "hosted-button-id",
   MERCHANT_ID: "merchant-id",
   LOCALE: "locale",
   CURRENCY: "currency",
