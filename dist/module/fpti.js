@@ -1,4 +1,6 @@
 export var FPTI_KEY = {
+  BRAND_VERSION: "brand_version",
+  BUTTON_COLOR: "button_color",
   BUTTON_LAYOUT: "button_layout",
   BUTTON_MESSAGE_AMOUNT: "button_message_amount",
   BUTTON_MESSAGE_CREDIT_PRODUCT_IDENTIFIER: "button_message_credit_product_identifier",
