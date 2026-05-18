@@ -1,6 +1,8 @@
 /* @flow */
 
 export const FPTI_KEY = {
+  BRAND_VERSION: ("brand_version": "brand_version"),
+  BUTTON_COLOR: ("button_color": "button_color"),
   BUTTON_LAYOUT: ("button_layout": "button_layout"),
   BUTTON_MESSAGE_AMOUNT: ("button_message_amount": "button_message_amount"),
   BUTTON_MESSAGE_CREDIT_PRODUCT_IDENTIFIER:

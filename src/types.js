@@ -2,6 +2,8 @@
 
 export const TYPES = true;
 
+export type BrandVersion = "v1" | "v2";
+
 export type VaultedInstrument = {|
   id: string,
   label: {|
